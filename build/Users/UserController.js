@@ -188,7 +188,7 @@ class UserController {
             }
         });
     }
-    async loginUser(userInfo, userName, passWord, callback) {
+    async loginUser(userName, passWord, callback) {
         let user = UserModel_1.UserModel.findOne({ userName: userName });
         let validatePassWord;
         user.exec(async (err, data) => {
@@ -213,7 +213,7 @@ class UserController {
                         }
                         else {
                             //cache user lại để sau này lấy data xử lý cho nhanh
-                            userInfo.User = data;
+                            //userInfo.User = data;
                         }
                         UserInventory_2.UserInventoryModel.find({ userId: userData._id }, async (err, userInventory) => {
                             if (err)
@@ -541,7 +541,7 @@ class ProcessUser {
                 userController.playCampaign(msg.userId, msg.stageId, callback);
                 break;
             case 'USER_LOGIN':
-                userController.loginUser(userData, msg.userId, msg.stageId, callback);
+                userController.loginUser(msg.userId, msg.stageId, callback);
                 break;
         }
     }

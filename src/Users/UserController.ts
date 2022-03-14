@@ -26,10 +26,10 @@ var equipmentController = new EquipmentController();
 var castleController = new CastleController();
 
 interface CampaignData {
-  HeroId:string,
-  Equips:Array<any>,
-  TotalDame:number,
-  CountHit:number,
+  HeroId: string,
+  Equips: Array<any>,
+  TotalDame: number,
+  CountHit: number,
 }
 
 export class UserController {
@@ -70,21 +70,21 @@ export class UserController {
     }
   }
 
-  async createDefaultHeroes(userID: any, walletID: string){
+  async createDefaultHeroes(userID: any, walletID: string) {
 
-    if(userID === null || userID === undefined){
+    if (userID === null || userID === undefined) {
       await UserModel.findOne({ walletID: walletID })
-      .then(rs => {
-        if(rs) userID = rs._id;
-      })
-      .catch(err=> console.log(err));
+        .then(rs => {
+          if (rs) userID = rs._id;
+        })
+        .catch(err => console.log(err));
     }
 
     let heroData;
-    await heroController.randomHero(1,async (err, rs)=>{
-      if(err){
+    await heroController.randomHero(1, async (err, rs) => {
+      if (err) {
         console.log(`create Arius fail!`);
-      }else{
+      } else {
         heroData = rs;
         await UserInventoryModel.create({
           userId: userID,
@@ -93,22 +93,22 @@ export class UserController {
           itemType: 0,
           isInMarket: false,
           isValid: true
-        }).then(rs=>{
-         
+        }).then(rs => {
+
         })
-        .catch(err=>{
-          heroController.deleteHero(heroData._id.toString(),(err,rs)=>{});
-          console.log(`create inventory for Arius fail! ${err}`);
-        });
+          .catch(err => {
+            heroController.deleteHero(heroData._id.toString(), (err, rs) => { });
+            console.log(`create inventory for Arius fail! ${err}`);
+          });
       }
     });
 
-   
 
-    await heroController.randomHero(2,async (err, rs)=>{
-      if(err){
+
+    await heroController.randomHero(2, async (err, rs) => {
+      if (err) {
         console.log(`create Evelyn fail!`);
-      }else{
+      } else {
         heroData = rs;
         await UserInventoryModel.create({
           userId: userID,
@@ -117,33 +117,33 @@ export class UserController {
           itemType: 0,
           isInMarket: false,
           isValid: true
-        }).then(rs=>{
-         
+        }).then(rs => {
+
         })
-        .catch(err=>{
-          heroController.deleteHero(heroData._id.toString(),(err,rs)=>{});
-          console.log(`create inventory for Evelyn fail! ${err}`);
-        });
+          .catch(err => {
+            heroController.deleteHero(heroData._id.toString(), (err, rs) => { });
+            console.log(`create inventory for Evelyn fail! ${err}`);
+          });
       }
     });
 
   }
 
-  async createDefaultItems(userID: any, walletID){
+  async createDefaultItems(userID: any, walletID) {
 
-    if(userID === null || userID === undefined){
+    if (userID === null || userID === undefined) {
       await UserModel.findOne({ walletID: walletID })
-      .then(rs => {
-        if(rs) userID = rs._id;
-      })
-      .catch(err=> console.log(err));
+        .then(rs => {
+          if (rs) userID = rs._id;
+        })
+        .catch(err => console.log(err));
     }
 
     let itemData;
-    await equipmentController.ramdomEquiptment(100100,"Common",async (err,rs)=>{
-      if(err){
+    await equipmentController.ramdomEquiptment(100100, "Common", async (err, rs) => {
+      if (err) {
         console.log(`create Item fail!`);
-      }else{
+      } else {
         itemData = rs;
         await UserInventoryModel.create({
           userId: userID,
@@ -152,20 +152,21 @@ export class UserController {
           itemType: 2,
           isInMarket: false,
           isValid: true
-        }).then(rs=>{
-         
+        }).then(rs => {
+
         })
-        .catch(err=>{
-          equipmentController.deleteEquipment(itemData._id.toString(),(err,rs)=>{});
-          console.log(`create inventory for Arius fail! ${err}`);
-        });
-    }});
+          .catch(err => {
+            equipmentController.deleteEquipment(itemData._id.toString(), (err, rs) => { });
+            console.log(`create inventory for Arius fail! ${err}`);
+          });
+      }
+    });
 
 
-    await equipmentController.ramdomEquiptment(100200,"Common",async (err,rs)=>{
-      if(err){
+    await equipmentController.ramdomEquiptment(100200, "Common", async (err, rs) => {
+      if (err) {
         console.log(`create Item fail!`);
-      }else{
+      } else {
         itemData = rs;
         await UserInventoryModel.create({
           userId: userID,
@@ -174,30 +175,31 @@ export class UserController {
           itemType: 2,
           isInMarket: false,
           isValid: true
-        }).then(rs=>{
-         
+        }).then(rs => {
+
         })
-        .catch(err=>{
-          equipmentController.deleteEquipment(itemData._id.toString(),(err,rs)=>{});
-          console.log(`create inventory for Arius fail! ${err}`);
-        });
-    }});
+          .catch(err => {
+            equipmentController.deleteEquipment(itemData._id.toString(), (err, rs) => { });
+            console.log(`create inventory for Arius fail! ${err}`);
+          });
+      }
+    });
   }
 
-  async createDefaultCastle(userID: any, walletID: string){
+  async createDefaultCastle(userID: any, walletID: string) {
 
-    if(userID === null || userID === undefined){
+    if (userID === null || userID === undefined) {
       await UserModel.findOne({ walletID: walletID })
-      .then(rs => {
-        if(rs) userID = rs._id;
-      })
-      .catch(err=> console.log(err));
+        .then(rs => {
+          if (rs) userID = rs._id;
+        })
+        .catch(err => console.log(err));
     }
 
-    await castleController.randomCastle(async(err,rs)=>{
-      if(err){
+    await castleController.randomCastle(async (err, rs) => {
+      if (err) {
         console.log(err);
-      }else{
+      } else {
         await UserInventoryModel.create({
           userId: userID,
           walletID: walletID,
@@ -205,25 +207,25 @@ export class UserController {
           itemType: 6,
           isInMarket: false,
           isValid: true
-        }).then(rs=>{
-         
+        }).then(rs => {
+
         })
-        .catch(err=>{
-          console.log(`create inventory for castle fail! ${err}`);
-        });
+          .catch(err => {
+            console.log(`create inventory for castle fail! ${err}`);
+          });
       }
-      
+
     });
 
   }
 
-  async loginUser(userInfo:UserData, userName: string, passWord: string, callback: any) {
+  async loginUser(userName: string, passWord: string, callback: any) {
     let user = UserModel.findOne({ userName: userName });
     let validatePassWord: boolean;
     user.exec(async (err, data) => {
       if (err) console.log(err);
       else {
-        
+
         if (!data) {
           callback('', 'Wrong username or password');
         } else {
@@ -237,51 +239,49 @@ export class UserController {
           } else {
 
 
-            let isOnline = await redisUtil.CheckCurrentDeviceOnline(userData._id,userName,'deviceID');
+            let isOnline = await redisUtil.CheckCurrentDeviceOnline(userData._id, userName, 'deviceID');
 
             //user đã online ở thiết bị khác rồi
-            if(isOnline)
-            {
+            if (isOnline) {
               callback('', 'Duplicate login');
             }
-            else
-            {
+            else {
               //cache user lại để sau này lấy data xử lý cho nhanh
-              userInfo.User = data;
+              //userInfo.User = data;
 
             }
 
-             UserInventoryModel.find({ userId: userData._id }, async (err, userInventory) => {
+            UserInventoryModel.find({ userId: userData._id }, async (err, userInventory) => {
               if (err) callback('', 'Data User err');
               else {
                 let inventory: Map<Object, IUserInventory> = new Map<Object, IUserInventory>();
-                
+
                 let heroCount = 0;
                 let castleCount = 0;
                 let itemCount = 0;
 
                 await userInventory.forEach((value, key) => {
-                  if(value.itemType == ItemType.Hero ){
+                  if (value.itemType == ItemType.Hero) {
                     heroCount++;
                   }
-                  if(value.itemType == ItemType.Castle ){
+                  if (value.itemType == ItemType.Castle) {
                     castleCount++;
                   }
-                  if(value.itemType == ItemType.Equip ){
+                  if (value.itemType == ItemType.Equip) {
                     itemCount++;
                   }
                 });
 
-                if(heroCount == 0){
-                  await this.createDefaultHeroes(null,userData.walletID);
+                if (heroCount == 0) {
+                  await this.createDefaultHeroes(null, userData.walletID);
                 }
 
-                if(itemCount == 0){
-                  await this.createDefaultItems(null,userData.walletID);
+                if (itemCount == 0) {
+                  await this.createDefaultItems(null, userData.walletID);
                 }
 
-                if(castleCount == 0){
-                  await this.createDefaultCastle(null,userData.walletID);
+                if (castleCount == 0) {
+                  await this.createDefaultCastle(null, userData.walletID);
                 }
 
                 callback('', {
@@ -293,8 +293,8 @@ export class UserController {
                     RDG: userData.RDG,
                     RDR: userData.RDR,
                     inventory: inventory,
-                    energy : userData.energy,
-                    maxEnergy : userData.maxEnergy,
+                    energy: userData.energy,
+                    maxEnergy: userData.maxEnergy,
                     currentStage: userData.currentStage
                   },
                 });
@@ -498,9 +498,9 @@ export class UserController {
         //    newItem.walletID = userInfo?.walletID;
       }
     });
- 
- 
- 
+
+
+
   }
 
 
@@ -526,7 +526,7 @@ export class UserController {
   //     }
   //   }
   //   return validate;
-   
+
   // }
 
   geneRateHero(walletId: string, tokenId: string, callback: any) {
@@ -567,44 +567,44 @@ export class UserController {
       });
   }
 
-  async getUserModelByItem(_id, callback){
+  async getUserModelByItem(_id, callback) {
     let userInventoryItem;
-    await UserInventoryModel.findOne({itemId: _id})
+    await UserInventoryModel.findOne({ itemId: _id })
       .then(rs => userInventoryItem = rs)
-      .catch(err=> callback(err,'find inventory item error!'));
+      .catch(err => callback(err, 'find inventory item error!'));
 
-      
 
-      let userModel;
-    await UserModel.findOne({_id : userInventoryItem.userId})
-    .then(rs=> userModel = rs )
-    .catch(err=> callback(err,'find user  error!'));
 
-    
-    callback('',userModel);
+    let userModel;
+    await UserModel.findOne({ _id: userInventoryItem.userId })
+      .then(rs => userModel = rs)
+      .catch(err => callback(err, 'find user  error!'));
+
+
+    callback('', userModel);
 
   }
 
-  async updateUser(userData, callback){
-  
-    UserModel.updateOne({_id: userData._id},{$set: userData}).
-    then(rs=>{
-      console.log(rs);
-      callback('',rs);
-    })
-    .catch(err=>{
-      console.log(err);
-      callback(err,'');
-    });
+  async updateUser(userData, callback) {
+
+    UserModel.updateOne({ _id: userData._id }, { $set: userData }).
+      then(rs => {
+        console.log(rs);
+        callback('', rs);
+      })
+      .catch(err => {
+        console.log(err);
+        callback(err, '');
+      });
   }
 
-    
+
 }
 
 const userController = new UserController();
 
 export class ProcessUser {
-  processUserMessage(userData:UserData, msg: any, callback: any) {
+  processUserMessage(userData: UserData, msg: any, callback: any) {
     switch (msg.typeMsg) {
       case 'OPENCHEST':
         userController.openChest(msg, callback);
@@ -614,7 +614,7 @@ export class ProcessUser {
         break;
 
       case 'USER_LOGIN':
-        userController.loginUser(userData, msg.userId, msg.stageId, callback);
+        userController.loginUser(msg.userId, msg.stageId, callback);
         break;
     }
   }
