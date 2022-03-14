@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "outDir": "build",
+    "module": "commonjs",
+    "strictNullChecks": true
+  },
+  "include": ["**/*"]
+}

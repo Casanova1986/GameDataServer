@@ -1,0 +1,2179 @@
+[
+    {
+      "id": 1,
+      "general": {
+        "heroName": "Adrius",
+        "className": "Mage",
+        "type": "MAGE",
+        "tier": "Common"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 20,
+          "maxStat": 30,
+          "stepStat": 1
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 100,
+          "maxStat": 150,
+          "stepStat": 10
+        },
+        "armor": {
+          "minStat": 5,
+          "maxStat": 10,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 15,
+          "maxStat": 20,
+          "stepStat": 0.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Laser Beam\r\n\r\nBắn ra 1 chùm tia laser đi xuyên qua tất cả kẻ địch, gây sát thương phép lên kẻ địch trúng đòn bằng [100% Max Atk] mỗi 0.25 giây trong tổng cộng 3 giây. Cooldown 30 giây.\r\n"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 4 (Weapon Passive)",
+          "description": "Thời gian tồn tại của Skill Active kéo dài thêm 2 giây. Kỹ năng active giờ bỏ qua 20% Magic Res của kẻ địch."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "general": {
+        "heroName": "Warlock Adrius",
+        "className": "Warlock",
+        "type": "MAGE",
+        "tier": "Rare"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 40,
+          "maxStat": 50,
+          "stepStat": 2
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 300,
+          "maxStat": 350,
+          "stepStat": 20
+        },
+        "armor": {
+          "minStat": 10,
+          "maxStat": 15,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 25,
+          "maxStat": 30,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "125% attack"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Đòn đánh thường có 10% tỉ lệ gây thêm bonus sát thương chuẩn bằng 5% HP tối đa của kẻ địch (Không vượt quá 300% Atk bản thân, damage này không thể crit)"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "general": {
+        "heroName": "Archsage Adrius",
+        "className": "Archsage",
+        "type": "MAGE",
+        "tier": "Epic"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 60,
+          "maxStat": 70,
+          "stepStat": 3
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 500,
+          "maxStat": 550,
+          "stepStat": 30
+        },
+        "armor": {
+          "minStat": 15,
+          "maxStat": 20,
+          "stepStat": 1
+        },
+        "magicRes": {
+          "minStat": 35,
+          "maxStat": 40,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "100% attack\r\nThời gian 4s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Tốc độ tấn công tăng thêm 10%. Sau khi dùng skill active, điểm bonus được gấp đôi thành 20% trong 5 giây (thay vì 10%)."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "general": {
+        "heroName": "Dynasty Adrius",
+        "className": "Dynasty",
+        "type": "MAGE",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 80,
+          "maxStat": 90,
+          "stepStat": 4
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 700,
+          "maxStat": 750,
+          "stepStat": 40
+        },
+        "armor": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 1
+        },
+        "magicRes": {
+          "minStat": 45,
+          "maxStat": 50,
+          "stepStat": 1.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "150% attack\r\nCooldown 28s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Đòn đánh thường có 10% tỉ lệ gây thêm bonus sát thương chuẩn bằng 5% HP tối đa của kẻ địch (Không vượt quá 300% Atk bản thân, damage này không thể crit)"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Tốc độ tấn công tăng thêm 15%. Sau khi dùng skill active, điểm bonus được gấp đôi thành 30% trong 5 giây (thay vì 15%)."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "general": {
+        "heroName": "Order of Light Adrius",
+        "className": "Order of Light",
+        "type": "MAGE",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 80,
+          "maxStat": 90,
+          "stepStat": 4
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 700,
+          "maxStat": 750,
+          "stepStat": 40
+        },
+        "armor": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 1
+        },
+        "magicRes": {
+          "minStat": 45,
+          "maxStat": 50,
+          "stepStat": 1.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "125% attack\r\nThời gian 4s\r\nCooldown 28s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Đòn đánh thường có 10% tỉ lệ gây thêm bonus sát thương chuẩn bằng 7% HP tối đa của kẻ địch (Không vượt quá 450% Atk bản thân, damage này không thể crit)"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Tốc độ tấn công tăng thêm 10%. Sau khi dùng skill active, điểm bonus được gấp đôi thành 20% trong 5 giây (thay vì 10%)."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "general": {
+        "heroName": "Crimson Knight Adrius",
+        "className": "Crimson Knight",
+        "type": "MAGE",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 110,
+          "maxStat": 130,
+          "stepStat": 6
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1000,
+          "maxStat": 1200,
+          "stepStat": 60
+        },
+        "armor": {
+          "minStat": 30,
+          "maxStat": 35,
+          "stepStat": 1.5
+        },
+        "magicRes": {
+          "minStat": 65,
+          "maxStat": 70,
+          "stepStat": 3
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "200% attack\r\nCooldown 25s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Đòn đánh thường có 10% tỉ lệ gây thêm bonus sát thương chuẩn bằng 7% HP tối đa của kẻ địch (Không vượt quá 450% Atk bản thân, damage này không thể crit)"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Tốc độ tấn công tăng thêm 30%. Sau khi dùng skill active, điểm bonus được gấp đôi thành 60% trong 5 giây (thay vì 30%)."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "general": {
+        "heroName": "Adrius the Sould Stealer",
+        "className": "Soul Stealer",
+        "type": "MAGE",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 110,
+          "maxStat": 130,
+          "stepStat": 6
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1000,
+          "maxStat": 1200,
+          "stepStat": 60
+        },
+        "armor": {
+          "minStat": 30,
+          "maxStat": 35,
+          "stepStat": 1.5
+        },
+        "magicRes": {
+          "minStat": 65,
+          "maxStat": 70,
+          "stepStat": 3
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "170% attack\r\nThời gian 4s\r\nCooldown 25s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Đòn đánh thường có 15% tỉ lệ gây thêm bonus sát thương chuẩn bằng 10% HP tối đa của kẻ địch (Không vượt quá 700% Atk bản thân, damage này không thể crit)"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Tốc độ tấn công tăng thêm 15%. Sau khi dùng skill active, điểm bonus được gấp đôi thành 30% trong 5 giây (thay vì 15%)."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "general": {
+        "heroName": "Evelyn",
+        "className": "Pegasus Knight",
+        "type": "WARRIOR",
+        "tier": "Common"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 15,
+          "maxStat": 25,
+          "stepStat": 1
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 150,
+          "maxStat": 200,
+          "stepStat": 10
+        },
+        "armor": {
+          "minStat": 10,
+          "maxStat": 15,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 5,
+          "maxStat": 10,
+          "stepStat": 0.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "\r\n\r\nNhảy lên, ném 1 ngọn giáo khổng lồ về phía kẻ địch gây [500% Max Atk] sát thương vật lý và làm choáng kẻ địch trúng đòn trong 1s. Cooldown 30 giây. \r\n\r\n"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 4 (Weapon Passive)",
+          "description": "Kỹ năng Active có thể tiêu diệt mọi kẻ địch dưới 30% HP ngay lập tức (không áp dụng với Boss)."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "general": {
+        "heroName": "Falcon Knight Evelyn",
+        "className": "Falcon Knight",
+        "type": "WARRIOR",
+        "tier": "Rare"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 35,
+          "maxStat": 45,
+          "stepStat": 2
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 350,
+          "maxStat": 400,
+          "stepStat": 20
+        },
+        "armor": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 1
+        },
+        "magicRes": {
+          "minStat": 10,
+          "maxStat": 15,
+          "stepStat": 0.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "700% Attack\r\nChoáng 1s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Mỗi khi last hit được 1 kẻ địch, Hero nhận được 10 Atk dmg, cộng dồn tối đa 5 stack. Nếu không last hit trong vòng 5 giây thì hiệu ứng này biến mất."
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "general": {
+        "heroName": "Valkyrie Evelyn",
+        "className": "Valkyrie",
+        "type": "WARRIOR",
+        "tier": "Epic"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 55,
+          "maxStat": 65,
+          "stepStat": 3
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 550,
+          "maxStat": 600,
+          "stepStat": 30
+        },
+        "armor": {
+          "minStat": 30,
+          "maxStat": 35,
+          "stepStat": 1
+        },
+        "magicRes": {
+          "minStat": 15,
+          "maxStat": 20,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "500% Attack\r\nChoáng 2s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Mỗi khi last hit được một kẻ địch, Crit Damage tăng 30% trong 5 giây."
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "general": {
+        "heroName": "Dynasty Evelyn",
+        "className": "Dynasty",
+        "type": "WARRIOR",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 75,
+          "maxStat": 85,
+          "stepStat": 4
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 750,
+          "maxStat": 800,
+          "stepStat": 40
+        },
+        "armor": {
+          "minStat": 40,
+          "maxStat": 45,
+          "stepStat": 1.5
+        },
+        "magicRes": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "1000% Attack\r\nChoáng 1s\r\nCooldown 28s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "10 Atk dmg\r\n7 Stack"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Mỗi khi last hit được một kẻ địch, Crit Damage tăng 50% trong 5 giây."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "general": {
+        "heroName": "Order of Light Evelyn",
+        "className": "Order of Light",
+        "type": "WARRIOR",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 75,
+          "maxStat": 85,
+          "stepStat": 4
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 750,
+          "maxStat": 800,
+          "stepStat": 40
+        },
+        "armor": {
+          "minStat": 40,
+          "maxStat": 45,
+          "stepStat": 1.5
+        },
+        "magicRes": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "700% Attack\r\nChoáng 2s\r\nCooldown 28s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "20 Atk dmg\r\n7 Stack"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Mỗi khi last hit được một kẻ địch, Crit Damage tăng 30% trong 5 giây."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "general": {
+        "heroName": "Crimson Knight Evelyn",
+        "className": "Crimson Knight",
+        "type": "WARRIOR",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 105,
+          "maxStat": 125,
+          "stepStat": 6
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.15,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1050,
+          "maxStat": 1250,
+          "stepStat": 60
+        },
+        "armor": {
+          "minStat": 60,
+          "maxStat": 65,
+          "stepStat": 3
+        },
+        "magicRes": {
+          "minStat": 30,
+          "maxStat": 35,
+          "stepStat": 1.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "1300% Attack\r\nChoáng 2s\r\nCooldown 25s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "30 Atk Dmg\r\n10 Stack"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Mỗi khi last hit được một kẻ địch, Crit Damage tăng 100% trong 7 giây."
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "general": {
+        "heroName": "Soul Stealer Evelyn",
+        "className": "Soul Stealer",
+        "type": "WARRIOR",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 105,
+          "maxStat": 125,
+          "stepStat": 6
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.15,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1050,
+          "maxStat": 1250,
+          "stepStat": 60
+        },
+        "armor": {
+          "minStat": 60,
+          "maxStat": 65,
+          "stepStat": 3
+        },
+        "magicRes": {
+          "minStat": 30,
+          "maxStat": 35,
+          "stepStat": 1.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "1000% Attack\r\nChoáng 3s\r\nCooldown 25s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "50 Atk Dmg\r\n10 Stack"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Mỗi khi last hit được một kẻ địch, Crit Damage tăng 30% trong 170 giây."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "general": {
+        "heroName": "Galidus",
+        "className": "Fighter",
+        "type": "WARRIOR",
+        "tier": "Common"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 20,
+          "maxStat": 30,
+          "stepStat": 1
+        },
+        "speedAtk": 0.3,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 200,
+          "maxStat": 300,
+          "stepStat": 10
+        },
+        "armor": {
+          "minStat": 15,
+          "maxStat": 20,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 0,
+          "maxStat": 5,
+          "stepStat": 0.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Hét lớn gây [50% Max Atk] sát thương vật lý mỗi 0.5 giây trong 3 giây và làm kẻ địch ở cả 5 lane gần castle chịu hiệu ứng Fear trong 1 giây sau khi kỹ năng kết thúc. Cooldown 30 giây."
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 4 (Weapon Passive)",
+          "description": "Mỗi khi last hit được một kẻ địch, hero này được tăng 30 điểm atk damage. Cộng dồn tối đa 10 lần. Nếu trong vòng 30s không last hit thêm được một kẻ địch, hiệu ứng này sẽ bị reset."
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "general": {
+        "heroName": "Warrior Galidus",
+        "className": "Warrior",
+        "type": "WARRIOR",
+        "tier": "Rare"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 30,
+          "maxStat": 40,
+          "stepStat": 2
+        },
+        "speedAtk": 0.3,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 450,
+          "maxStat": 550,
+          "stepStat": 25
+        },
+        "armor": {
+          "minStat": 25,
+          "maxStat": 30,
+          "stepStat": 1
+        },
+        "magicRes": {
+          "minStat": 5,
+          "maxStat": 10,
+          "stepStat": 0.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "75%\r\n0.5s trong 3s\r\nFear 1s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Mỗi đòn đánh thường có 5% tỉ lệ làm choáng kẻ địch trúng đòn trong 1 giây."
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "general": {
+        "heroName": "Berserker Galidus",
+        "className": "Berserker",
+        "type": "WARRIOR",
+        "tier": "Epic"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 40,
+          "maxStat": 50,
+          "stepStat": 3
+        },
+        "speedAtk": 0.3,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 700,
+          "maxStat": 800,
+          "stepStat": 40
+        },
+        "armor": {
+          "minStat": 35,
+          "maxStat": 40,
+          "stepStat": 1
+        },
+        "magicRes": {
+          "minStat": 10,
+          "maxStat": 15,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "50% \r\n0.5s trong 4s \r\nFear 1s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Mỗi lần đánh thường, Atk Spd của Galius được tăng 5%, stack tối đa 5 lần. Nếu không tấn công trong vòng 5 giây thì buff này biến mất."
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "general": {
+        "heroName": "Dynasty Galidus",
+        "className": "Dynasty",
+        "type": "WARRIOR",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 50,
+          "maxStat": 60,
+          "stepStat": 4
+        },
+        "speedAtk": 0.3,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1000,
+          "maxStat": 1200,
+          "stepStat": 60
+        },
+        "armor": {
+          "minStat": 45,
+          "maxStat": 50,
+          "stepStat": 2
+        },
+        "magicRes": {
+          "minStat": 15,
+          "maxStat": 20,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "100%\r\n0.5s trong 3s\r\nFear 1s\r\nCooldown 28s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "5%\r\n1 giây"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Atk Spd +7%"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "general": {
+        "heroName": "Order of Light Galidus",
+        "className": "Order of Light",
+        "type": "WARRIOR",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 50,
+          "maxStat": 60,
+          "stepStat": 4
+        },
+        "speedAtk": 0.3,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1000,
+          "maxStat": 1200,
+          "stepStat": 60
+        },
+        "armor": {
+          "minStat": 45,
+          "maxStat": 50,
+          "stepStat": 2
+        },
+        "magicRes": {
+          "minStat": 15,
+          "maxStat": 20,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "75%\r\n0.5s trong 4s\r\nFear 1s\r\nCooldown 28s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "10%\r\n1 giây"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Atk Spd +5%"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "general": {
+        "heroName": "Crimson Knight Galidus",
+        "className": "Crimson Knight",
+        "type": "WARRIOR",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 80,
+          "maxStat": 100,
+          "stepStat": 6
+        },
+        "speedAtk": 0.3,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1400,
+          "maxStat": 1600,
+          "stepStat": 100
+        },
+        "armor": {
+          "minStat": 65,
+          "maxStat": 70,
+          "stepStat": 4
+        },
+        "magicRes": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "125%\r\n0.5s trong 3s\r\nFear 2s\r\nCooldown 25s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "10%\r\n1 giây"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Atk Spd +10%"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "general": {
+        "heroName": "Soul Stealer Galidus",
+        "className": "Soul Stealer",
+        "type": "WARRIOR",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 80,
+          "maxStat": 100,
+          "stepStat": 6
+        },
+        "speedAtk": 0.3,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1400,
+          "maxStat": 1600,
+          "stepStat": 100
+        },
+        "armor": {
+          "minStat": 65,
+          "maxStat": 70,
+          "stepStat": 4
+        },
+        "magicRes": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "100%\r\n0.5s trong 4s\r\nFear 2s\r\nCooldown 25s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "15%\r\n2 giây"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Atk Spd +7%"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "general": {
+        "heroName": "Florence",
+        "className": "Priest",
+        "type": "SUPPORT",
+        "tier": "Common"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 15,
+          "maxStat": 25,
+          "stepStat": 1
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 100,
+          "maxStat": 150,
+          "stepStat": 10
+        },
+        "armor": {
+          "minStat": 5,
+          "maxStat": 10,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 15,
+          "maxStat": 20,
+          "stepStat": 0.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Tạo một khiên bảo vệ cho Castle giúp Castle miễn nhiễm sát thương trong 3 giây và phản lại 20% sát thương về phía kẻ địch tấn công. Cooldown 35 giây."
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 4 (Weapon Passive)",
+          "description": "Mỗi 15 giây hero này cast một phép thuật giúp tăng atk dmg của các hero còn lại lên 100% trong 6 giây. \r\n\r\n(Spine file: Florent Buff 2 Front + Back)\r\n\r\n+Hero Anim: Skill2)"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "general": {
+        "heroName": "High Priest Florence",
+        "className": "High Priest",
+        "type": "SUPPORT",
+        "tier": "Rare"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 25,
+          "maxStat": 35,
+          "stepStat": 2
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 250,
+          "maxStat": 300,
+          "stepStat": 20
+        },
+        "armor": {
+          "minStat": 10,
+          "maxStat": 15,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 1
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "3 Giây\r\nPhản lại 30% sát thương"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Mỗi 10 giây, hero buff cho tất cả các hero khác 5% atk spd và 5% crit chance trong 5 giây. \r\n"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "general": {
+        "heroName": "Archbishop Florence",
+        "className": "Archbishop",
+        "type": "SUPPORT",
+        "tier": "Epic"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 35,
+          "maxStat": 45,
+          "stepStat": 3
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 400,
+          "maxStat": 450,
+          "stepStat": 30
+        },
+        "armor": {
+          "minStat": 15,
+          "maxStat": 20,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 25,
+          "maxStat": 30,
+          "stepStat": 1.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "4 Giây\r\nPhản lại 30% sát thương"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Mọi kẻ địch khi bị trúng đòn đánh thường của Florence sẽ bị đánh dấu trong 3 giây. Trong thời gian bị đánh dấu, kẻ địch nhận thêm 10% sát thương sau khi đã trừ qua giáp từ mọi nguồn.\r\n"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "general": {
+        "heroName": "Dynasty Florence",
+        "className": "Dynasty",
+        "type": "SUPPORT",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 45,
+          "maxStat": 55,
+          "stepStat": 4
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 550,
+          "maxStat": 600,
+          "stepStat": 40
+        },
+        "armor": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 30,
+          "maxStat": 35,
+          "stepStat": 2
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "4 Giây\r\nPhản lại 40% Sát Thương"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "10% Atk Spd\r\n10% Crit Chance"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "3 giây\r\n10% sát thương"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "general": {
+        "heroName": "Order of Light Florence",
+        "className": "Order of Light",
+        "type": "SUPPORT",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 45,
+          "maxStat": 55,
+          "stepStat": 4
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 550,
+          "maxStat": 600,
+          "stepStat": 40
+        },
+        "armor": {
+          "minStat": 20,
+          "maxStat": 25,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 30,
+          "maxStat": 35,
+          "stepStat": 2
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "3 Giây\r\nPhản lại 50% Sát Thương"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "5% Atk Spd\r\n5% Crit Chance"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "3 giây\r\n20% sát thương"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "general": {
+        "heroName": "Crimson Knight Florence",
+        "className": "Crimson Knight",
+        "type": "SUPPORT",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 70,
+          "maxStat": 80,
+          "stepStat": 6
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 700,
+          "maxStat": 800,
+          "stepStat": 60
+        },
+        "armor": {
+          "minStat": 25,
+          "maxStat": 30,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 35,
+          "maxStat": 40,
+          "stepStat": 2.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "5 Giây\r\nPhản lại 60% Sát Thương"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "20% Atk Spd\r\n20% Crit Chance"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "3 giây\r\n20% sát thương"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "general": {
+        "heroName": "Soul Stealer Florence",
+        "className": "Soul Stealer",
+        "type": "SUPPORT",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 70,
+          "maxStat": 80,
+          "stepStat": 6
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 700,
+          "maxStat": 800,
+          "stepStat": 60
+        },
+        "armor": {
+          "minStat": 25,
+          "maxStat": 30,
+          "stepStat": 0.5
+        },
+        "magicRes": {
+          "minStat": 35,
+          "maxStat": 40,
+          "stepStat": 2.5
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "4 Giây\r\nPhản lại 80% Sát Thương"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "10% Atk Spd\r\n10% Crit Chance"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "4 giây\r\n30% sát thương"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "general": {
+        "heroName": "Rathael",
+        "className": "Archer\r\n",
+        "type": "RANGER",
+        "tier": "Common"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 20,
+          "maxStat": 30,
+          "stepStat": 2
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 100,
+          "maxStat": 150,
+          "stepStat": 10
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Trong vòng 3 giây, đòn đánh thường bắn ra 5 mũi tên theo hình rẻ quạt, với tốc độ bắn fix ở 1 attack/s. Cooldown 30 giây.\r\n"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 4 (Weapon Passive)",
+          "description": "Mỗi khi tiêu diệt được 1 enemy, cooldow của active skill giảm 1 giây."
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "general": {
+        "heroName": "Sniper Rathael",
+        "className": "Sniper",
+        "type": "RANGER",
+        "tier": "Rare"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 30,
+          "maxStat": 40,
+          "stepStat": 3
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 150,
+          "maxStat": 200,
+          "stepStat": 20
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "4s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Mũi tên từ đòn đánh thường hoặc từ mọi skill của Rathael có 10% gây hiệu ứng Poison lên kẻ địch trong 3 giây.\r\nPoison 100% Atk mỗi 1s"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "general": {
+        "heroName": "Elf King Rathael",
+        "className": "Elf King",
+        "type": "RANGER",
+        "tier": "Epic"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 40,
+          "maxStat": 50,
+          "stepStat": 4
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 200,
+          "maxStat": 250,
+          "stepStat": 30
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "4s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Đòn đánh thường có 3% tỉ lệ bắn ra mũi tên bạc tiêu diệt kẻ địch ngay lập tức. Đối với boss thì mũi tên bạc gây sát thương chuẩn bằng 5% HP tối đa (Không vượt quá 300% Atk bản thân, damage này không thể crit)"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "general": {
+        "className": "Dynasty",
+        "type": "RANGER",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 50,
+          "maxStat": 70,
+          "stepStat": 5
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 300,
+          "maxStat": 400,
+          "stepStat": 40
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "4s\r\n28s Cooldown"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "10% tỉ lệ\r\n3 Giây\r\n100% Atk/s"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "4% tỉ lệ\r\n5%HP\r\n400%Atk"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "general": {
+        "className": "Order of Light",
+        "type": "RANGER",
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 50,
+          "maxStat": 70,
+          "stepStat": 5
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 300,
+          "maxStat": 400,
+          "stepStat": 40
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "4s\r\n28s Cooldown"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "15% tỉ lệ\r\n3 Giây\r\n200% Atk/s"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "3% tỉ lệ\r\n5%HP\r\n300%Atk"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "general": {
+        "className": "Crimson Knight",
+        "type": "RANGER",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 70,
+          "maxStat": 90,
+          "stepStat": 7
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 400,
+          "maxStat": 500,
+          "stepStat": 50
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "5s\r\n25s Cooldown"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "20% tỉ lệ\r\n3 Giây\r\n400% Atk/s"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "4% tỉ lệ\r\n5%HP\r\n400%Atk"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "general": {
+        "className": "Soul Stealer",
+        "type": "RANGER",
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 70,
+          "maxStat": 90,
+          "stepStat": 7
+        },
+        "speedAtk": 0.6,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 400,
+          "maxStat": 500,
+          "stepStat": 50
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "5s\r\n25s Cooldown"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "15% tỉ lệ\r\n3 Giây\r\n200% Atk/s"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "7% tỉ lệ\r\n5%HP\r\n500%Atk"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "general": {
+        "heroName": "Eidra",
+        "className": "1. Baby Dragon\r\n2. War Dragon\r\n3. Divine Dragon\r\n",
+        "type": "MAGE",
+        "tier": "Common"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 29,
+          "maxStat": 45,
+          "stepStat": 2.4
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0.01,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Biến thành dạng Rồng, phun lửa gây sát thương lên toàn bộ 3 lane, gây sát thương phép bằng 40% atk mỗi 0.25s trong vòng 3 giây và gây hiệu ứng Burn trong 3 giây sau khi kĩ năng kết thúc. Cooldown 40 giây.\r\n"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "_x0008_Mỗi kẻ địch bị tiêu diệt bởi skill active (không tính hiệu ứng Burn) làm giảm cooldown của kỹ năng active đi 2 giây."
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Mỗi 23 giây, hero bắn ra một quả cầu lửa lớn theo hình cầu vồng về phía kẻ địch gây 140% atk sát thương phép trên một vùng và có 30% làm kẻ địch chịu hiệu ứng Burn. "
+        },
+        {
+          "name": "Skill 4 (Weapon Passive)",
+          "description": "Mọi đòn đánh thường và kỹ năng của hero này đánh dấu lên kẻ địch trong 5 giây. Khi kẻ địch bị chết lúc còn dấu ấn, chúng phát nổ và gây sát thương phép bằng [10% Max Atk] của hero này."
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "general": {
+        "heroName": "Raizo",
+        "className": "1. Myrmidon\r\n2. Swordmaster\r\n3. Shadow Blade\r\n\r\n\r\n",
+        "type": "WARRIOR",
+        "tier": "Common"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 29,
+          "maxStat": 45,
+          "stepStat": 2.4
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0.01,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Chém ra 5 luồng kiếm khí ở 1 vùng rộng phía trước mặt, gây tổng cộng [500% Atk] sát thương vật lý lên kẻ địch trúng đòn. Cooldown 30 giây.\r\n\r\nĐiều khiển: tap vào hero, sau đó tap vào map để chọn vị trí mà kiếm khí bay tới"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Mỗi đòn đánh thứ 4 chém ra 1 luồng kiếm khí hình lưỡi liềm đi xuyên qua tất cả quái vật gây sát thương vật lý bằng [150% \u001dAtk + 10% Hp] đã mất của kẻ địch"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Mỗi 19 giây, hero triệu hồi một cơn mưa kiếm lên kẻ địch trước mặt (độ rộng kỹ năng = 3 làn), gây 50% atk sát thương vật lý mỗi 0.5 giây, kéo dài tổng cộng 3.5 giây."
+        },
+        {
+          "name": "Skill 4 (Weapon Passive)",
+          "description": "Tỉ lệ chí mạng của hero tăng thêm 20% và sát thương chí mạng tăng 50%. Mỗi khi đánh 1 đòn gây sát thương chí mạng hero này được tăng tốc độ đánh thêm 30%."
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "general": {
+        "heroName": "Yimir",
+        "className": "Thief",
+        "type": "RANGER",
+        "tier": "Common"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 15,
+          "maxStat": 25,
+          "stepStat": 2
+        },
+        "speedAtk": 0.8,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 100,
+          "maxStat": 150,
+          "stepStat": 10
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Trong vòng 5s tiếp theo, đòn đánh thường của Hero được cường hóa: đạn của Yimir sẽ bay xuyên qua mọi kẻ địch và có tầm impact lớn hơn, mỗi đạn gây sát thương bằng 140% attack.\r\nCooldown 30s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "general": {
+        "heroName": "Assassin Yimir",
+        "className": "Assassin",
+        "type": "RANGER",
+        "tier": "Rare"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 25,
+          "maxStat": 35,
+          "stepStat": 3
+        },
+        "speedAtk": 0.8,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 150,
+          "maxStat": 200,
+          "stepStat": 20
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Trong vòng 6s tiếp theo, đòn đánh thường của Hero được cường hóa: đạn của Yimir sẽ bay xuyên qua mọi kẻ địch và có tầm impact lớn hơn, mỗi đạn gây sát thương bằng 160% attack.\r\nCooldown 30s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Đòn đánh thường cướp 10% attack (vật lý) từ mục tiêu trong 5 giây\r\nĐánh vào mục tiêu mới thì lượng atk cướp được làm mới"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "-"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "general": {
+        "heroName": "War Master Yimir",
+        "className": "War Master",
+        "type": "RANGER",
+        "tier": "Epic"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 35,
+          "maxStat": 45,
+          "stepStat": 4
+        },
+        "speedAtk": 0.8,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 200,
+          "maxStat": 250,
+          "stepStat": 30
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Trong vòng 7s tiếp theo, đòn đánh thường của Hero được cường hóa: đạn của Yimir sẽ bay xuyên qua mọi kẻ địch và có tầm impact lớn hơn, mỗi đạn gây sát thương bằng 180% attack. Cooldown 30s"
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "-"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Sát thương Hero gây ra tăng 5% với mỗi 20% máu đã mất của mục tiêu"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "general": {
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 45,
+          "maxStat": 55,
+          "stepStat": 5
+        },
+        "speedAtk": 0.4,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 300,
+          "maxStat": 400,
+          "stepStat": 40
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "20%"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Tăng 7%\r\n20% máu mất"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "general": {
+        "tier": "Unique"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 45,
+          "maxStat": 55,
+          "stepStat": 5
+        },
+        "speedAtk": 0.8,
+        "stepSpeedAtk": 0,
+        "critChance": 0.05,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 300,
+          "maxStat": 400,
+          "stepStat": 40
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "10%"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Tăng 7%\r\n20% máu mất"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "general": {
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 60,
+          "maxStat": 70,
+          "stepStat": 7
+        },
+        "speedAtk": 0.8,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 400,
+          "maxStat": 500,
+          "stepStat": 50
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "40%"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Tăng 10%\r\n20% máu mất"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "general": {
+        "tier": "Legendary"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 60,
+          "maxStat": 70,
+          "stepStat": 7
+        },
+        "speedAtk": 0.8,
+        "stepSpeedAtk": 0,
+        "critChance": 0.1,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 400,
+          "maxStat": 500,
+          "stepStat": 50
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "20%"
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Tăng 10%\r\n15% máu mất"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "general": {
+        "heroName": "Satriya",
+        "className": "Trainer",
+        "type": "DEFENDER",
+        "tier": "Common"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 16,
+          "maxStat": 19,
+          "stepStat": 4
+        },
+        "speedAtk": 0.7,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 800,
+          "maxStat": 1200,
+          "stepStat": 50
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Gọi ra một đội 5 lính hộ vệ chặn đường quái vật. Stats của lính được config bởi GD, tương tự như lính trụ barrack.\r\nCooldown 26s."
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "general": {
+        "heroName": "Protector Satriya",
+        "className": "Protector",
+        "type": "DEFENDER",
+        "tier": "Rare"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 20,
+          "maxStat": 24,
+          "stepStat": 5
+        },
+        "speedAtk": 0.7,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1000,
+          "maxStat": 1500,
+          "stepStat": 75
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Gọi ra một đội 5 lính hộ vệ chặn đường quái vật. Base stats của lính cao hơn.\r\nCooldown 26s."
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Mỗi đòn đánh thường của Satriya làm giảm 10 điểm atk của kẻ địch, cộng dồn tối đa 5 lần."
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "general": {
+        "heroName": "Guardian Satriya",
+        "className": "Guardian",
+        "type": "DEFENDER",
+        "tier": "Epic"
+      },
+      "mainStat": {
+        "physicAtk": {
+          "minStat": 25,
+          "maxStat": 30,
+          "stepStat": 6
+        },
+        "speedAtk": 0.7,
+        "stepSpeedAtk": 0,
+        "critChance": 0,
+        "stepCritChance": 0,
+        "critDamage": 2,
+        "stepCritDamage": 0,
+        "HP": {
+          "minStat": 1200,
+          "maxStat": 1900,
+          "stepStat": 100
+        }
+      },
+      "skill": [
+        {
+          "name": "Skill 1 (Active)",
+          "description": "Gọi ra một đội 5 lính hộ vệ chặn đường quái vật. Base stats của lính cao hơn.\r\nCooldown 26s."
+        },
+        {
+          "name": "Skill 2 (Passive 1)",
+          "description": "Mỗi đòn đánh thường của Satriya làm giảm 12 điểm atk của kẻ địch, cộng dồn tối đa 5 lần."
+        },
+        {
+          "name": "Skill 3 (Passive 2)",
+          "description": "Đòn đánh thường có 20% tỉ lệ đẩy lùi kẻ địch"
+        }
+      ]
+    }
+  ]

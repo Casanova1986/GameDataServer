@@ -1,0 +1,709 @@
+[
+  {
+    "stageId": 0,
+    "boxNormalFirstPlay": 0,
+    "boxNormalRelay": 0,
+    "RDGFirstPlay": 0,
+    "RDGRePlay": 0
+  },
+  {
+    "stageId": 1,
+    "boxNormalFirstPlay": 0.1,
+    "boxNormalRelay": 0.01,
+    "RDGFirstPlay": 8,
+    "RDGRePlay": 2
+  },
+  {
+    "stageId": 2,
+    "boxNormalFirstPlay": 0.1,
+    "boxNormalRelay": 0.01,
+    "RDGFirstPlay": 10,
+    "RDGRePlay": 3
+  },
+  {
+    "stageId": 3,
+    "boxNormalFirstPlay": 0.1,
+    "boxNormalRelay": 0.01,
+    "RDGFirstPlay": 12,
+    "RDGRePlay": 4
+  },
+  {
+    "stageId": 4,
+    "boxNormalFirstPlay": 0.1,
+    "boxNormalRelay": 0.01,
+    "RDGFirstPlay": 14,
+    "RDGRePlay": 4
+  },
+  {
+    "stageId": 5,
+    "boxNormalFirstPlay": 0.1,
+    "boxNormalRelay": 0.01,
+    "RDGFirstPlay": 16,
+    "RDGRePlay": 5
+  },
+  {
+    "stageId": 6,
+    "boxNormalFirstPlay": 0.1,
+    "boxNormalRelay": 0.01,
+    "RDGFirstPlay": 18,
+    "RDGRePlay": 6
+  },
+  {
+    "stageId": 7,
+    "boxNormalFirstPlay": 0.1,
+    "boxNormalRelay": 0.01,
+    "RDGFirstPlay": 20,
+    "RDGRePlay": 6
+  },
+  {
+    "stageId": 8,
+    "boxNormalFirstPlay": 0.1,
+    "boxNormalRelay": 0.01,
+    "RDGFirstPlay": 22,
+    "RDGRePlay": 7
+  },
+  {
+    "stageId": 9,
+    "boxNormalFirstPlay": 0.1,
+    "boxNormalRelay": 0.01,
+    "RDGFirstPlay": 24,
+    "RDGRePlay": 8
+  },
+  {
+    "stageId": 10,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.06,
+    "RDGFirstPlay": 26,
+    "RDGRePlay": 8
+  },
+  {
+    "stageId": 11,
+    "boxNormalFirstPlay": 0.12,
+    "boxNormalRelay": 0.012,
+    "RDGFirstPlay": 28,
+    "RDGRePlay": 9
+  },
+  {
+    "stageId": 12,
+    "boxNormalFirstPlay": 0.12,
+    "boxNormalRelay": 0.012,
+    "RDGFirstPlay": 30,
+    "RDGRePlay": 10
+  },
+  {
+    "stageId": 13,
+    "boxNormalFirstPlay": 0.12,
+    "boxNormalRelay": 0.012,
+    "RDGFirstPlay": 32,
+    "RDGRePlay": 10
+  },
+  {
+    "stageId": 14,
+    "boxNormalFirstPlay": 0.12,
+    "boxNormalRelay": 0.012,
+    "RDGFirstPlay": 34,
+    "RDGRePlay": 11
+  },
+  {
+    "stageId": 15,
+    "boxNormalFirstPlay": 0.12,
+    "boxNormalRelay": 0.012,
+    "RDGFirstPlay": 36,
+    "RDGRePlay": 12
+  },
+  {
+    "stageId": 16,
+    "boxNormalFirstPlay": 0.12,
+    "boxNormalRelay": 0.012,
+    "RDGFirstPlay": 38,
+    "RDGRePlay": 12
+  },
+  {
+    "stageId": 17,
+    "boxNormalFirstPlay": 0.12,
+    "boxNormalRelay": 0.012,
+    "RDGFirstPlay": 40,
+    "RDGRePlay": 13
+  },
+  {
+    "stageId": 18,
+    "boxNormalFirstPlay": 0.12,
+    "boxNormalRelay": 0.012,
+    "RDGFirstPlay": 42,
+    "RDGRePlay": 14
+  },
+  {
+    "stageId": 19,
+    "boxNormalFirstPlay": 0.12,
+    "boxNormalRelay": 0.012,
+    "RDGFirstPlay": 44,
+    "RDGRePlay": 14
+  },
+  {
+    "stageId": 20,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.07,
+    "RDGFirstPlay": 46,
+    "RDGRePlay": 15
+  },
+  {
+    "stageId": 21,
+    "boxNormalFirstPlay": 0.14,
+    "boxNormalRelay": 0.014,
+    "RDGFirstPlay": 48,
+    "RDGRePlay": 16
+  },
+  {
+    "stageId": 22,
+    "boxNormalFirstPlay": 0.14,
+    "boxNormalRelay": 0.014,
+    "RDGFirstPlay": 50,
+    "RDGRePlay": 16
+  },
+  {
+    "stageId": 23,
+    "boxNormalFirstPlay": 0.14,
+    "boxNormalRelay": 0.014,
+    "RDGFirstPlay": 52,
+    "RDGRePlay": 17
+  },
+  {
+    "stageId": 24,
+    "boxNormalFirstPlay": 0.14,
+    "boxNormalRelay": 0.014,
+    "RDGFirstPlay": 54,
+    "RDGRePlay": 18
+  },
+  {
+    "stageId": 25,
+    "boxNormalFirstPlay": 0.14,
+    "boxNormalRelay": 0.014,
+    "RDGFirstPlay": 56,
+    "RDGRePlay": 18
+  },
+  {
+    "stageId": 26,
+    "boxNormalFirstPlay": 0.14,
+    "boxNormalRelay": 0.014,
+    "RDGFirstPlay": 58,
+    "RDGRePlay": 19
+  },
+  {
+    "stageId": 27,
+    "boxNormalFirstPlay": 0.14,
+    "boxNormalRelay": 0.014,
+    "RDGFirstPlay": 60,
+    "RDGRePlay": 20
+  },
+  {
+    "stageId": 28,
+    "boxNormalFirstPlay": 0.14,
+    "boxNormalRelay": 0.014,
+    "RDGFirstPlay": 62,
+    "RDGRePlay": 20
+  },
+  {
+    "stageId": 29,
+    "boxNormalFirstPlay": 0.14,
+    "boxNormalRelay": 0.014,
+    "RDGFirstPlay": 64,
+    "RDGRePlay": 21
+  },
+  {
+    "stageId": 30,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.08,
+    "RDGFirstPlay": 66,
+    "RDGRePlay": 22
+  },
+  {
+    "stageId": 31,
+    "boxNormalFirstPlay": 0.16,
+    "boxNormalRelay": 0.016,
+    "RDGFirstPlay": 68,
+    "RDGRePlay": 22
+  },
+  {
+    "stageId": 32,
+    "boxNormalFirstPlay": 0.16,
+    "boxNormalRelay": 0.016,
+    "RDGFirstPlay": 70,
+    "RDGRePlay": 23
+  },
+  {
+    "stageId": 33,
+    "boxNormalFirstPlay": 0.16,
+    "boxNormalRelay": 0.016,
+    "RDGFirstPlay": 72,
+    "RDGRePlay": 24
+  },
+  {
+    "stageId": 34,
+    "boxNormalFirstPlay": 0.16,
+    "boxNormalRelay": 0.016,
+    "RDGFirstPlay": 74,
+    "RDGRePlay": 24
+  },
+  {
+    "stageId": 35,
+    "boxNormalFirstPlay": 0.16,
+    "boxNormalRelay": 0.016,
+    "RDGFirstPlay": 76,
+    "RDGRePlay": 25
+  },
+  {
+    "stageId": 36,
+    "boxNormalFirstPlay": 0.16,
+    "boxNormalRelay": 0.016,
+    "RDGFirstPlay": 78,
+    "RDGRePlay": 26
+  },
+  {
+    "stageId": 37,
+    "boxNormalFirstPlay": 0.16,
+    "boxNormalRelay": 0.016,
+    "RDGFirstPlay": 80,
+    "RDGRePlay": 26
+  },
+  {
+    "stageId": 38,
+    "boxNormalFirstPlay": 0.16,
+    "boxNormalRelay": 0.016,
+    "RDGFirstPlay": 82,
+    "RDGRePlay": 27
+  },
+  {
+    "stageId": 39,
+    "boxNormalFirstPlay": 0.16,
+    "boxNormalRelay": 0.016,
+    "RDGFirstPlay": 84,
+    "RDGRePlay": 28
+  },
+  {
+    "stageId": 40,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.09,
+    "RDGFirstPlay": 86,
+    "RDGRePlay": 28
+  },
+  {
+    "stageId": 41,
+    "boxNormalFirstPlay": 0.18,
+    "boxNormalRelay": 0.018,
+    "RDGFirstPlay": 88,
+    "RDGRePlay": 29
+  },
+  {
+    "stageId": 42,
+    "boxNormalFirstPlay": 0.18,
+    "boxNormalRelay": 0.018,
+    "RDGFirstPlay": 90,
+    "RDGRePlay": 30
+  },
+  {
+    "stageId": 43,
+    "boxNormalFirstPlay": 0.18,
+    "boxNormalRelay": 0.018,
+    "RDGFirstPlay": 92,
+    "RDGRePlay": 30
+  },
+  {
+    "stageId": 44,
+    "boxNormalFirstPlay": 0.18,
+    "boxNormalRelay": 0.018,
+    "RDGFirstPlay": 94,
+    "RDGRePlay": 31
+  },
+  {
+    "stageId": 45,
+    "boxNormalFirstPlay": 0.18,
+    "boxNormalRelay": 0.018,
+    "RDGFirstPlay": 96,
+    "RDGRePlay": 32
+  },
+  {
+    "stageId": 46,
+    "boxNormalFirstPlay": 0.18,
+    "boxNormalRelay": 0.018,
+    "RDGFirstPlay": 98,
+    "RDGRePlay": 32
+  },
+  {
+    "stageId": 47,
+    "boxNormalFirstPlay": 0.18,
+    "boxNormalRelay": 0.018,
+    "RDGFirstPlay": 100,
+    "RDGRePlay": 33
+  },
+  {
+    "stageId": 48,
+    "boxNormalFirstPlay": 0.18,
+    "boxNormalRelay": 0.018,
+    "RDGFirstPlay": 102,
+    "RDGRePlay": 34
+  },
+  {
+    "stageId": 49,
+    "boxNormalFirstPlay": 0.18,
+    "boxNormalRelay": 0.018,
+    "RDGFirstPlay": 104,
+    "RDGRePlay": 34
+  },
+  {
+    "stageId": 50,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.1,
+    "RDGFirstPlay": 106,
+    "RDGRePlay": 35
+  },
+  {
+    "stageId": 51,
+    "boxNormalFirstPlay": 0.2,
+    "boxNormalRelay": 0.02,
+    "RDGFirstPlay": 108,
+    "RDGRePlay": 36
+  },
+  {
+    "stageId": 52,
+    "boxNormalFirstPlay": 0.2,
+    "boxNormalRelay": 0.02,
+    "RDGFirstPlay": 110,
+    "RDGRePlay": 36
+  },
+  {
+    "stageId": 53,
+    "boxNormalFirstPlay": 0.2,
+    "boxNormalRelay": 0.02,
+    "RDGFirstPlay": 112,
+    "RDGRePlay": 37
+  },
+  {
+    "stageId": 54,
+    "boxNormalFirstPlay": 0.2,
+    "boxNormalRelay": 0.02,
+    "RDGFirstPlay": 114,
+    "RDGRePlay": 38
+  },
+  {
+    "stageId": 55,
+    "boxNormalFirstPlay": 0.2,
+    "boxNormalRelay": 0.02,
+    "RDGFirstPlay": 116,
+    "RDGRePlay": 38
+  },
+  {
+    "stageId": 56,
+    "boxNormalFirstPlay": 0.2,
+    "boxNormalRelay": 0.02,
+    "RDGFirstPlay": 118,
+    "RDGRePlay": 39
+  },
+  {
+    "stageId": 57,
+    "boxNormalFirstPlay": 0.2,
+    "boxNormalRelay": 0.02,
+    "RDGFirstPlay": 120,
+    "RDGRePlay": 40
+  },
+  {
+    "stageId": 58,
+    "boxNormalFirstPlay": 0.2,
+    "boxNormalRelay": 0.02,
+    "RDGFirstPlay": 122,
+    "RDGRePlay": 40
+  },
+  {
+    "stageId": 59,
+    "boxNormalFirstPlay": 0.2,
+    "boxNormalRelay": 0.02,
+    "RDGFirstPlay": 124,
+    "RDGRePlay": 41
+  },
+  {
+    "stageId": 60,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.12,
+    "RDGFirstPlay": 126,
+    "RDGRePlay": 42
+  },
+  {
+    "stageId": 61,
+    "boxNormalFirstPlay": 0.22,
+    "boxNormalRelay": 0.022,
+    "RDGFirstPlay": 128,
+    "RDGRePlay": 42
+  },
+  {
+    "stageId": 62,
+    "boxNormalFirstPlay": 0.22,
+    "boxNormalRelay": 0.022,
+    "RDGFirstPlay": 130,
+    "RDGRePlay": 43
+  },
+  {
+    "stageId": 63,
+    "boxNormalFirstPlay": 0.22,
+    "boxNormalRelay": 0.022,
+    "RDGFirstPlay": 132,
+    "RDGRePlay": 44
+  },
+  {
+    "stageId": 64,
+    "boxNormalFirstPlay": 0.22,
+    "boxNormalRelay": 0.022,
+    "RDGFirstPlay": 134,
+    "RDGRePlay": 44
+  },
+  {
+    "stageId": 65,
+    "boxNormalFirstPlay": 0.22,
+    "boxNormalRelay": 0.022,
+    "RDGFirstPlay": 136,
+    "RDGRePlay": 45
+  },
+  {
+    "stageId": 66,
+    "boxNormalFirstPlay": 0.22,
+    "boxNormalRelay": 0.022,
+    "RDGFirstPlay": 138,
+    "RDGRePlay": 46
+  },
+  {
+    "stageId": 67,
+    "boxNormalFirstPlay": 0.22,
+    "boxNormalRelay": 0.022,
+    "RDGFirstPlay": 140,
+    "RDGRePlay": 46
+  },
+  {
+    "stageId": 68,
+    "boxNormalFirstPlay": 0.22,
+    "boxNormalRelay": 0.022,
+    "RDGFirstPlay": 142,
+    "RDGRePlay": 47
+  },
+  {
+    "stageId": 69,
+    "boxNormalFirstPlay": 0.22,
+    "boxNormalRelay": 0.022,
+    "RDGFirstPlay": 144,
+    "RDGRePlay": 48
+  },
+  {
+    "stageId": 70,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.14,
+    "RDGFirstPlay": 146,
+    "RDGRePlay": 48
+  },
+  {
+    "stageId": 71,
+    "boxNormalFirstPlay": 0.24,
+    "boxNormalRelay": 0.024,
+    "RDGFirstPlay": 148,
+    "RDGRePlay": 49
+  },
+  {
+    "stageId": 72,
+    "boxNormalFirstPlay": 0.24,
+    "boxNormalRelay": 0.024,
+    "RDGFirstPlay": 150,
+    "RDGRePlay": 50
+  },
+  {
+    "stageId": 73,
+    "boxNormalFirstPlay": 0.24,
+    "boxNormalRelay": 0.024,
+    "RDGFirstPlay": 152,
+    "RDGRePlay": 50
+  },
+  {
+    "stageId": 74,
+    "boxNormalFirstPlay": 0.24,
+    "boxNormalRelay": 0.024,
+    "RDGFirstPlay": 154,
+    "RDGRePlay": 51
+  },
+  {
+    "stageId": 75,
+    "boxNormalFirstPlay": 0.24,
+    "boxNormalRelay": 0.024,
+    "RDGFirstPlay": 156,
+    "RDGRePlay": 52
+  },
+  {
+    "stageId": 76,
+    "boxNormalFirstPlay": 0.24,
+    "boxNormalRelay": 0.024,
+    "RDGFirstPlay": 158,
+    "RDGRePlay": 52
+  },
+  {
+    "stageId": 77,
+    "boxNormalFirstPlay": 0.24,
+    "boxNormalRelay": 0.024,
+    "RDGFirstPlay": 160,
+    "RDGRePlay": 53
+  },
+  {
+    "stageId": 78,
+    "boxNormalFirstPlay": 0.24,
+    "boxNormalRelay": 0.024,
+    "RDGFirstPlay": 162,
+    "RDGRePlay": 54
+  },
+  {
+    "stageId": 79,
+    "boxNormalFirstPlay": 0.24,
+    "boxNormalRelay": 0.024,
+    "RDGFirstPlay": 164,
+    "RDGRePlay": 54
+  },
+  {
+    "stageId": 80,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.16,
+    "RDGFirstPlay": 166,
+    "RDGRePlay": 55
+  },
+  {
+    "stageId": 81,
+    "boxNormalFirstPlay": 0.26,
+    "boxNormalRelay": 0.026,
+    "RDGFirstPlay": 168,
+    "RDGRePlay": 56
+  },
+  {
+    "stageId": 82,
+    "boxNormalFirstPlay": 0.26,
+    "boxNormalRelay": 0.026,
+    "RDGFirstPlay": 170,
+    "RDGRePlay": 56
+  },
+  {
+    "stageId": 83,
+    "boxNormalFirstPlay": 0.26,
+    "boxNormalRelay": 0.026,
+    "RDGFirstPlay": 172,
+    "RDGRePlay": 57
+  },
+  {
+    "stageId": 84,
+    "boxNormalFirstPlay": 0.26,
+    "boxNormalRelay": 0.026,
+    "RDGFirstPlay": 174,
+    "RDGRePlay": 58
+  },
+  {
+    "stageId": 85,
+    "boxNormalFirstPlay": 0.26,
+    "boxNormalRelay": 0.026,
+    "RDGFirstPlay": 176,
+    "RDGRePlay": 58
+  },
+  {
+    "stageId": 86,
+    "boxNormalFirstPlay": 0.26,
+    "boxNormalRelay": 0.026,
+    "RDGFirstPlay": 178,
+    "RDGRePlay": 59
+  },
+  {
+    "stageId": 87,
+    "boxNormalFirstPlay": 0.26,
+    "boxNormalRelay": 0.026,
+    "RDGFirstPlay": 180,
+    "RDGRePlay": 60
+  },
+  {
+    "stageId": 88,
+    "boxNormalFirstPlay": 0.26,
+    "boxNormalRelay": 0.026,
+    "RDGFirstPlay": 182,
+    "RDGRePlay": 60
+  },
+  {
+    "stageId": 89,
+    "boxNormalFirstPlay": 0.26,
+    "boxNormalRelay": 0.026,
+    "RDGFirstPlay": 184,
+    "RDGRePlay": 61
+  },
+  {
+    "stageId": 90,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.18,
+    "RDGFirstPlay": 186,
+    "RDGRePlay": 62
+  },
+  {
+    "stageId": 91,
+    "boxNormalFirstPlay": 0.28,
+    "boxNormalRelay": 0.028,
+    "RDGFirstPlay": 188,
+    "RDGRePlay": 62
+  },
+  {
+    "stageId": 92,
+    "boxNormalFirstPlay": 0.28,
+    "boxNormalRelay": 0.028,
+    "RDGFirstPlay": 190,
+    "RDGRePlay": 63
+  },
+  {
+    "stageId": 93,
+    "boxNormalFirstPlay": 0.28,
+    "boxNormalRelay": 0.028,
+    "RDGFirstPlay": 192,
+    "RDGRePlay": 64
+  },
+  {
+    "stageId": 94,
+    "boxNormalFirstPlay": 0.28,
+    "boxNormalRelay": 0.028,
+    "RDGFirstPlay": 194,
+    "RDGRePlay": 64
+  },
+  {
+    "stageId": 95,
+    "boxNormalFirstPlay": 0.28,
+    "boxNormalRelay": 0.028,
+    "RDGFirstPlay": 196,
+    "RDGRePlay": 65
+  },
+  {
+    "stageId": 96,
+    "boxNormalFirstPlay": 0.28,
+    "boxNormalRelay": 0.028,
+    "RDGFirstPlay": 198,
+    "RDGRePlay": 66
+  },
+  {
+    "stageId": 97,
+    "boxNormalFirstPlay": 0.28,
+    "boxNormalRelay": 0.028,
+    "RDGFirstPlay": 200,
+    "RDGRePlay": 66
+  },
+  {
+    "stageId": 98,
+    "boxNormalFirstPlay": 0.28,
+    "boxNormalRelay": 0.028,
+    "RDGFirstPlay": 202,
+    "RDGRePlay": 67
+  },
+  {
+    "stageId": 99,
+    "boxNormalFirstPlay": 0.28,
+    "boxNormalRelay": 0.028,
+    "RDGFirstPlay": 204,
+    "RDGRePlay": 68
+  },
+  {
+    "stageId": 100,
+    "boxNormalFirstPlay": 1,
+    "boxNormalRelay": 0.2,
+    "RDGFirstPlay": 206,
+    "RDGRePlay": 68
+  }
+]

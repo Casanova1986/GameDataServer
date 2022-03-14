@@ -1,0 +1,655 @@
+{
+  "CommonGear": [
+    {
+      "ID": "100100",
+      "Item": "Training Sword",
+      "Type": "Weapon",
+      "Rarity": "Common",
+      "MainStat": "Atk + [20-30] (+8)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100101",
+      "Item": "Hunting Bow",
+      "Type": "Weapon",
+      "Rarity": "Common",
+      "MainStat": "Atk + [10-20] (+8)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100200",
+      "Item": "Fur Armor",
+      "Type": "Garment",
+      "Rarity": "Common",
+      "MainStat": "Atk Spd + [10-20] (+1)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100201",
+      "Item": "Leather Tunic",
+      "Type": "Garment",
+      "Rarity": "Common",
+      "MainStat": "Atk Spd + [5-10] (+1)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100300",
+      "Item": "Copper Ring",
+      "Type": "Ring",
+      "Rarity": "Common",
+      "MainStat": "Crit Chance + [2-3%] (+0.1%)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100301",
+      "Item": "Rusted Ring",
+      "Type": "Ring",
+      "Rarity": "Common",
+      "MainStat": "Crit Chance + [1-2%] (+0.1%)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100400",
+      "Item": "Old Necklace",
+      "Type": "Amulet",
+      "Rarity": "Common",
+      "MainStat": "Crit Damage + [8-10%] (+1%)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100401",
+      "Item": "Bone Necklace",
+      "Type": "Amulet",
+      "Rarity": "Common",
+      "MainStat": "Crit Damage + [6-8%] (+1%)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100500",
+      "Item": "Viking Helm",
+      "Type": "Helmet",
+      "Rarity": "Common",
+      "MainStat": "Armor + [8-10] (+2) || HP + [50-100] (+40)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100501",
+      "Item": "Metal Coif",
+      "Type": "Helmet",
+      "Rarity": "Common",
+      "MainStat": "Armor + [6-8] (+2) || HP + [100-150] (+40)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100600",
+      "Item": "Old Raggedy Cape",
+      "Type": "Cape",
+      "Rarity": "Common",
+      "MainStat": "Magic Res + [8-10] (+2) || HP + [50-100] (+40)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "100601",
+      "Item": "Ragged Black Cape",
+      "Type": "Cape",
+      "Rarity": "Common",
+      "MainStat": "Magic Res + [6-8] (+2) || HP + [100-150] (+40)",
+      "Fuse Rate": "N/A"
+    },
+    {
+      "ID": "200100",
+      "Item": "Wizard's Rod",
+      "Type": "Weapon",
+      "Rarity": "Rare",
+      "MainStat": "Atk + [60-70] (+13)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "200101",
+      "Item": "Iron Sword",
+      "Type": "Weapon",
+      "Rarity": "Rare",
+      "MainStat": "Atk + [40-50] (+13)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "200200",
+      "Item": "Knight's Armor",
+      "Type": "Garment",
+      "Rarity": "Rare",
+      "MainStat": "Atk Spd + [20-40] (+2)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "200201",
+      "Item": "Iron Cuirass",
+      "Type": "Garment",
+      "Rarity": "Rare",
+      "MainStat": "Atk Spd + [10-30] (+2)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "200300",
+      "Item": "Gold Ring",
+      "Type": "Ring",
+      "Rarity": "Rare",
+      "MainStat": "Crit Chance + [4-6%] (+0.2%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "200301",
+      "Item": "Silver Band",
+      "Type": "Ring",
+      "Rarity": "Rare",
+      "MainStat": "Crit Chance + [2-4%] (+0.2%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "200400",
+      "Item": "Gold Necklace",
+      "Type": "Amulet",
+      "Rarity": "Rare",
+      "MainStat": "Crit Damage + [16-20%] (+2%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "200401",
+      "Item": "Silver Pendant",
+      "Type": "Amulet",
+      "Rarity": "Rare",
+      "MainStat": "Crit Damage + [12-16%] (+2%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "200500",
+      "Item": "Nordic Helm",
+      "Type": "Helmet",
+      "Rarity": "Rare",
+      "MainStat": "Armor + [16-20] (+4) || HP + [200-250] (+65)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "200501",
+      "Item": "Bronze Full Helmet",
+      "Type": "Helmet",
+      "Rarity": "Rare",
+      "MainStat": "Armor + [12-16] (+4) || HP + [300-350] (+65)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "200600",
+      "Item": "Coffin Cape",
+      "Type": "Cape",
+      "Rarity": "Rare",
+      "MainStat": "Magic Res + [16-20] (+4) || HP + [200-250] (+65)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "200601",
+      "Item": "Christmas Cape",
+      "Type": "Cape",
+      "Rarity": "Rare",
+      "MainStat": "Magic Res + [12-16] (+4) || HP + [300-350] (+65)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "300100",
+      "Item": "Elven Bow",
+      "Type": "Weapon",
+      "Rarity": "Epic",
+      "MainStat": "Atk + [100-110] (+21)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "300101",
+      "Item": "Rune Blade",
+      "Type": "Weapon",
+      "Rarity": "Epic",
+      "MainStat": "Atk + [70-80] (+21)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "300200",
+      "Item": "Imperial Armor",
+      "Type": "Garment",
+      "Rarity": "Epic",
+      "MainStat": "Atk Spd + [40-60] (+2)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "300201",
+      "Item": "Enchanter's Habit",
+      "Type": "Garment",
+      "Rarity": "Epic",
+      "MainStat": "Atk Spd + [30-50] (+2)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "300300",
+      "Item": "Fortune Ring",
+      "Type": "Ring",
+      "Rarity": "Epic",
+      "MainStat": "Crit Chance + [7-9%] (+0.3%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "300301",
+      "Item": "Enchanted Ring",
+      "Type": "Ring",
+      "Rarity": "Epic",
+      "MainStat": "Crit Chance + [5-7%] (+0.3%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "300400",
+      "Item": "Fortune Charm",
+      "Type": "Amulet",
+      "Rarity": "Epic",
+      "MainStat": "Crit Damage + [24-30%] (+4%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "300401",
+      "Item": "Enchanted Amulet",
+      "Type": "Amulet",
+      "Rarity": "Epic",
+      "MainStat": "Crit Damage + [18-24%] (+4%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "300500",
+      "Item": "Burgernet Helm",
+      "Type": "Helmet",
+      "Rarity": "Epic",
+      "MainStat": "Armor + [24-30] (+6) || HP + [350-400] (+105)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "300501",
+      "Item": "Samurai Helmet",
+      "Type": "Helmet",
+      "Rarity": "Epic",
+      "MainStat": "Armor + [18-24] (+6) || HP + [500-550] (+105)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "300600",
+      "Item": "Star Cape",
+      "Type": "Cape",
+      "Rarity": "Epic",
+      "MainStat": "Magic Res + [24-30] (+6) || HP + [350-400] (+105)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "300601",
+      "Item": "Flaming Cape",
+      "Type": "Cape",
+      "Rarity": "Epic",
+      "MainStat": "Magic Res + [18-24] (+6) || HP + [500-550] (+105)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "400100",
+      "Item": "Crystal Sword",
+      "Type": "Weapon",
+      "Rarity": "Unique",
+      "MainStat": "Atk + [140-150] (+34)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "400101",
+      "Item": "Rosewood Wand",
+      "Type": "Weapon",
+      "Rarity": "Unique",
+      "MainStat": "Atk + [100-110] (+34)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "400200",
+      "Item": "Maximillian",
+      "Type": "Garment",
+      "Rarity": "Unique",
+      "MainStat": "Atk Spd + [60-80] (+3)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "400201",
+      "Item": "Diamond Armor",
+      "Type": "Garment",
+      "Rarity": "Unique",
+      "MainStat": "Atk Spd + [50-70] (+3)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "400300",
+      "Item": "Leo Ring",
+      "Type": "Ring",
+      "Rarity": "Unique",
+      "MainStat": "Crit Chance + [10-12%] (+0.4%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "400301",
+      "Item": "Ruby Ring",
+      "Type": "Ring",
+      "Rarity": "Unique",
+      "MainStat": "Crit Chance + [8-10%] (+0.4%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "400400",
+      "Item": "Lion Locket",
+      "Type": "Amulet",
+      "Rarity": "Unique",
+      "MainStat": "Crit Damage + [32-40%] (+6%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "400401",
+      "Item": "Ruby Pendant",
+      "Type": "Amulet",
+      "Rarity": "Unique",
+      "MainStat": "Crit Damage + [24-32%] (+6%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "400500",
+      "Item": "Crusader Helm",
+      "Type": "Helmet",
+      "Rarity": "Unique",
+      "MainStat": "Armor + [32-40] (+8) || HP + [500-550] (+170)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "400501",
+      "Item": "Battle Helmet",
+      "Type": "Helmet",
+      "Rarity": "Unique",
+      "MainStat": "Armor + [24-32] (+8) || HP + [700-750] (+170)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "400600",
+      "Item": "Dracula Cloak",
+      "Type": "Cape",
+      "Rarity": "Unique",
+      "MainStat": "Magic Res + [32-40] (+8) || HP + [500-550] (+170)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "400601",
+      "Item": "Napoleon Cape",
+      "Type": "Cape",
+      "Rarity": "Unique",
+      "MainStat": "Magic Res + [24-32] (+8) || HP + [700-750] (+170)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "500100",
+      "Item": "Avenger",
+      "Type": "Weapon",
+      "Rarity": "Legendary",
+      "MainStat": "Atk + [180-200] (+55)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "500101",
+      "Item": "Bow of Darkness",
+      "Type": "Weapon",
+      "Rarity": "Legendary",
+      "MainStat": "Atk + [130-140] (+55)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "500200",
+      "Item": "Dragonscale Mail",
+      "Type": "Garment",
+      "Rarity": "Legendary",
+      "MainStat": "Atk Spd + [70-90] (+4)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "500201",
+      "Item": "Reaper Cloak",
+      "Type": "Garment",
+      "Rarity": "Legendary",
+      "MainStat": "Atk Spd + [60-80] (+4)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "500300",
+      "Item": "Dragoncrest Ring",
+      "Type": "Ring",
+      "Rarity": "Legendary",
+      "MainStat": "Crit Chance + [13-15%] (+0.5%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "500301",
+      "Item": "Bloodstone Ring",
+      "Type": "Ring",
+      "Rarity": "Legendary",
+      "MainStat": "Crit Chance + [11-13%] (+0.5%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "500400",
+      "Item": "Calamity Amulet",
+      "Type": "Amulet",
+      "Rarity": "Legendary",
+      "MainStat": "Crit Damage + [40-50%] (+8%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "500401",
+      "Item": "Bloodstone Amulet",
+      "Type": "Amulet",
+      "Rarity": "Legendary",
+      "MainStat": "Crit Damage + [30-40%] (+8%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "500500",
+      "Item": "Blue Grace Helmet",
+      "Type": "Helmet",
+      "Rarity": "Legendary",
+      "MainStat": "Armor + [40-50] (+10) || HP + [650-700] (+225)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "500501",
+      "Item": "Bone Helm",
+      "Type": "Helmet",
+      "Rarity": "Legendary",
+      "MainStat": "Armor + [30-40] (+10) || HP + [900-1000] (+225)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "500600",
+      "Item": "Musketeer Cape",
+      "Type": "Cape",
+      "Rarity": "Legendary",
+      "MainStat": "Magic Res + [40-50] (+10) || HP + [650-700] (+225)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "500601",
+      "Item": "Naval Commander Cape",
+      "Type": "Cape",
+      "Rarity": "Legendary",
+      "MainStat": "Magic Res + [30-40] (+10) || HP + [900-1000] (+225)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "600100",
+      "Item": "Artemis Bow",
+      "Type": "Weapon",
+      "Rarity": "Ultimate",
+      "MainStat": "Atk + [220-240] (+89)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "600101",
+      "Item": "Celestial Scepter",
+      "Type": "Weapon",
+      "Rarity": "Ultimate",
+      "MainStat": "Atk + [160-170] (+89)",
+      "Fuse Rate": "64%"
+    },
+    {
+      "ID": "600200",
+      "Item": "Seraph Armor",
+      "Type": "Garment",
+      "Rarity": "Ultimate",
+      "MainStat": "Atk Spd + [90-100] (+5)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "600201",
+      "Item": "Robe of Lords",
+      "Type": "Garment",
+      "Rarity": "Ultimate",
+      "MainStat": "Atk Spd + [80-90] (+5)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "600300",
+      "Item": "Ring of the Sun",
+      "Type": "Ring",
+      "Rarity": "Ultimate",
+      "MainStat": "Crit Chance + [16-18%] (+0.6%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "600301",
+      "Item": "Harmonious Ring",
+      "Type": "Ring",
+      "Rarity": "Ultimate",
+      "MainStat": "Crit Chance + [14-16%] (+0.6%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "600400",
+      "Item": "Angel's Locket",
+      "Type": "Amulet",
+      "Rarity": "Ultimate",
+      "MainStat": "Crit Damage + [48-60%] (+10%)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "600401",
+      "Item": "Pendant of Light",
+      "Type": "Amulet",
+      "Rarity": "Ultimate",
+      "MainStat": "Crit Damage + [36-48%] (+10%)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "600500",
+      "Item": "Dragon Barbute",
+      "Type": "Helmet",
+      "Rarity": "Ultimate",
+      "MainStat": "Armor + [48-60] (+12) || HP + [800-850] (+445)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "600501",
+      "Item": "Herculean Helmet",
+      "Type": "Helmet",
+      "Rarity": "Ultimate",
+      "MainStat": "Armor + [36-48] (+12) || HP + [1100-1200] (+445)",
+      "Fuse Rate": "65%"
+    },
+    {
+      "ID": "600600",
+      "Item": "Sunfire Wings",
+      "Type": "Cape",
+      "Rarity": "Ultimate",
+      "MainStat": "Magic Res + [48-60] (+12) || HP + [800-850] (+445)",
+      "Fuse Rate": "35%"
+    },
+    {
+      "ID": "600601",
+      "Item": "Cupid's Wings",
+      "Type": "Cape",
+      "Rarity": "Ultimate",
+      "MainStat": "Magic Res + [36-48] (+12) || HP + [1100-1200] (+445)",
+      "Fuse Rate": "65%"
+    }
+  ],
+  "ExclusiveGear": [],
+  "SubStats": [
+    {
+      "Atk": [
+        {
+          "Common": "1 - 10",
+          "Rare": "31 - 40",
+          "Epic": "61 - 70",
+          "Unique": "91 - 100",
+          "Legendary": "121 - 130",
+          "Ultimate": "151 - 160"
+        }
+      ],
+      "AtkSpd": [
+        {
+          "Common": "10 - 20",
+          "Rare": "20 - 40",
+          "Epic": "30 - 50",
+          "Unique": "40 - 60",
+          "Legendary": "50 - 70",
+          "Ultimate": "60 - 80"
+        }
+      ],
+      "CritChance": [
+        {
+          "Common": "1% - 2%",
+          "Rare": "3% - 4%)",
+          "Epic": "5% - 6%",
+          "Unique": "7% - 8%",
+          "Legendary": "9% - 10%",
+          "Ultimate": "11% - 12%"
+        }
+      ],
+      "CritDmg": [
+        {
+          "Common": "4% - 6%",
+          "Rare": "10% - 12%",
+          "Epic": "16% - 18%",
+          "Unique": "22% - 24%",
+          "Legendary": "28% - 30%",
+          "Ultimate": "34% - 36%"
+        }
+      ],
+      "Armor": [
+        {
+          "Common": "6 - 8",
+          "Rare": "12 - 16",
+          "Epic": "18 - 24",
+          "Unique": "24 - 32",
+          "Legendary": "30 - 40",
+          "Ultimate": "36 - 48"
+        }
+      ],
+      "MagicRes": [
+        {
+          "Common": "6 - 8",
+          "Rare": "12 - 16",
+          "Epic": "18 - 24",
+          "Unique": "24 - 32",
+          "Legendary": "30 - 40",
+          "Ultimate": "36 - 48"
+        }
+      ],
+      "HP": [
+        {
+          "Common": "100 - 200",
+          "Rare": "200 - 400",
+          "Epic": "600 - 900",
+          "Unique": "1000 - 1400",
+          "Legendary": "1500 - 2000",
+          "Ultimate": "2200 - 3000"
+        }
+      ]
+    }
+  ]
+}

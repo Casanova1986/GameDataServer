@@ -1,0 +1,1759 @@
+[
+  {
+    "idHero": 1,
+    "equipments": [],
+    "skills": [
+      {
+        "name": "Laser Beam",
+        "skillName": "Adrius_Skill0",
+        "skillType": "Active",
+        "avatar": "adrius_skill_1",
+        "description": "Unleash a powerful laser beam. Inflicts magical damage on enemies by <color=green>100%</color> Atk every 0.25 second. Duration: <color=green>3</color>  second. <color=red>Cooldown: 30 seconds.</color>",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Adrius",
+      "description": "adrius des",
+      "className": "Mage",
+      "type": "Mage",
+      "tier": "Common",
+      "level": 0,
+      "star": 0,
+      "avatar": "adrius"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 20,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 300,
+      "energyRegeneration": 10
+    }
+  },
+  {
+    "idHero": 12,
+    "equipments": [],
+    "skills": [
+      {
+        "name": "Laser Beam",
+        "skillName": "WarlockAdrius_Skill0",
+        "skillType": "Active",
+        "avatar": "adrius_skill_1",
+        "description": "Unleash a powerful laser beam. Inflicts magical damage on enemies by <color=green>125%</color> Atk every 0.25 second. Duration: <color=green>3</color>  second. <color=red>Cooldown: 30 seconds.</color>",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 1",
+        "skillName": "Adrius_Skill1",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_2",
+        "description": "Normal attack has <color=green>10%</color> chance to inflicts bonus fixed damage equals to <color=green>5%</color> enemy HP ( This damage can't exceed <color=green>300%</color> self Attack and cannot crit)",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Warlock Adrius",
+      "description": "adrius des",
+      "className": "Warlock",
+      "type": "Mage",
+      "tier": "Rare",
+      "level": 0,
+      "star": 0,
+      "avatar": "warlock_adrius"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 20,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 300,
+      "energyRegeneration": 10
+    }
+  },
+  {
+    "idHero": 13,
+    "equipments": [],
+    "skills": [
+      {
+        "name": "Laser Beam",
+        "skillName": "ArchsageAdrius_Skill0",
+        "skillType": "Active",
+        "avatar": "adrius_skill_1",
+        "description": "Unleash a powerful laser beam. Inflicts magical damage on enemies by <color=green>100%</color> Atk every 0.25 second. Duration : <color=green>4</color> second. <color=red>Cooldown 30 seconds.</color>",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 2",
+        "skillName": "Adrius_Skill2",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_3",
+        "description": "+<color=green>10</color> bonus attack speed. Everytime active skill is used, this bonus get doubled for <color=green>5</color> seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Archsage Adrius",
+      "description": "adrius des",
+      "className": "Archsage",
+      "type": "Mage",
+      "tier": "Epic",
+      "level": 0,
+      "star": 0,
+      "avatar": "archsage_adrius"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 20,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 300,
+      "energyRegeneration": 10
+    }
+  },
+  {
+    "idHero": 14,
+    "equipments": [],
+    "skills": [
+      {
+        "name": "Laser Beam",
+        "skillName": "CrimsonKnightAdrius_Skill0",
+        "skillType": "Active",
+        "avatar": "adrius_skill_1",
+        "description": "Unleash a powerful laser beam. Inflicts magical damage on enemies by <color=green>200%</color> Atk every 0.25 second. Duration: <color=green>3</color> second. <color=red>Cooldown: 25 seconds.</color>",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 1",
+        "skillName": "Adrius_Skill1",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_2",
+        "description": "Normal attack has <color=green>10%</color> chance to inflicts bonus fixed damage equals to <color=green>7%</color> enemy HP ( This damage can't exceed <color=green>450%</color> self Attack and cannot crit)",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 2",
+        "skillName": "Adrius_Skill2",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_3",
+        "description": "+<color=green>30</color> bonus attack speed. Everytime active skill is used, this bonus get doubled for <color=green>5</color> seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Crimson Knight Adrius",
+      "description": "adrius des",
+      "className": "Crimson Knight",
+      "type": "Mage",
+      "tier": "Legendary",
+      "level": 0,
+      "star": 0,
+      "avatar": "crimson_knight_adrius"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 20,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 300,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 15,
+    "equipments": [],
+    "skills": [
+      {
+        "name": "Laser Beam",
+        "skillName": "OrderofLightAdrius_Skill0",
+        "skillType": "Active",
+        "avatar": "adrius_skill_1",
+        "description": "Unleash a powerful laser beam. Inflicts magical damage on enemies by <color=green>125%</color> Atk every 0.25 second. Duration: <color=green>4</color> second. <color=red>Cooldown: 28 seconds.</color>",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 1",
+        "skillName": "Adrius_Skill1",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_2",
+        "description": "Normal attack has <color=green>10%</color> chance to inflicts bonus fixed damage equals to <color=green>7%</color> enemy HP ( This damage can't exceed <color=green>450%</color> self Attack and cannot crit)",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 2",
+        "skillName": "Adrius_Skill2",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_3",
+        "description": "+<color=green>10</color> bonus attack speed. Everytime active skill is used, this bonus get doubled for <color=green>5</color> seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Order Of Light Adrius",
+      "description": "adrius des",
+      "className": "Order Of Light",
+      "type": "Mage",
+      "tier": "Unique",
+      "level": 0,
+      "star": 0,
+      "avatar": "order_of_light_adrius"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 20,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 300,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 16,
+    "equipments": [],
+    "skills": [
+      {
+        "name": "Laser Beam",
+        "skillName": "DynastyAdrius_Skill0",
+        "skillType": "Active",
+        "avatar": "adrius_skill_1",
+        "description": "Unleash a powerful laser beam. Inflicts magical damage on enemies by <color=green>150%</color> Atk every 0.25 second. Duration: <color=green>3</color> second. <color=red>Cooldown: 28 seconds.</color>",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 1",
+        "skillName": "Adrius_Skill1",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_2",
+        "description": "Normal attack has <color=green>10%</color> chance to inflicts bonus fixed damage equals to <color=green>5%</color> enemy HP ( This damage can't exceed <color=green>300%</color> self Attack and cannot crit)",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 2",
+        "skillName": "Adrius_Skill2",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_3",
+        "description": "+<color=green>15</color> bonus attack speed. Everytime active skill is used, this bonus get doubled for <color=green>5</color> seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Dynasty Adrius",
+      "description": "adrius des",
+      "className": "Dynasty",
+      "type": "Mage",
+      "tier": "Unique",
+      "level": 0,
+      "star": 0,
+      "avatar": "dynasty_adrius"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 20,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 300,
+      "energyRegeneration": 10
+    }
+  },
+  {
+    "idHero": 17,
+    "equipments": [],
+    "skills": [
+      {
+        "name": "Laser Beam",
+        "skillName": "SoulStealerAdrius_Skill0",
+        "skillType": "Active",
+        "avatar": "adrius_skill_1",
+        "description": "Unleash a powerful laser beam. Inflicts magical damage on enemies by <color=green>170%</color> Atk every 0.25 second. Duration: <color=green>4</color> second. <color=red>Cooldown: 25 seconds.</color>",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 1",
+        "skillName": "Adrius_Skill1",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_2",
+        "description": "Normal attack has <color=green>15%</color> chance to inflicts bonus fixed damage equals to <color=green>10%</color> enemy HP ( This damage can't exceed <color=green>700%</color> self Attack and cannot crit)",
+        "level": 1
+      },
+      {
+        "name": "Adrius Passive 2",
+        "skillName": "Adrius_Skill2",
+        "skillType": "Passive",
+        "avatar": "adrius_skill_3",
+        "description": "+<color=green>15</color> bonus attack speed. Everytime active skill is used, this bonus get doubled for 5 seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Soul Stealer Adrius",
+      "description": "adrius des",
+      "className": "Soul Stealer",
+      "type": "Mage",
+      "tier": "Legendary",
+      "level": 0,
+      "star": 0,
+      "avatar": "soul_stealer_adrius"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 20,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 300,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 2,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "Evelyn_Skill0",
+        "name": "Wild Spear",
+        "skillType": "Active",
+        "avatar": "evelyn_skill_1",
+        "description": "Evelyn hurls her spear at the chosen area, dealing <color=green>500%</color> Max Atk physical damage and appluing Stun effect on enemies get hit for 1 seconds.<color=red> Cooldown 20 seconds.</color>",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Evelynn",
+      "description": "generalHeroInfo des",
+      "className": "Pegasus Knight",
+      "type": "Warrior",
+      "tier": "Common",
+      "level": 0,
+      "star": 0,
+      "avatar": "evelyn"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 5,
+        "critDamage": 200,
+        "physicDamage": 15,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 150,
+      "maxEnergy": 200,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 22,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "FalconKnightEvelyn_Skill0",
+        "name": "Wild Spear",
+        "skillType": "Active",
+        "avatar": "evelyn_skill_1",
+        "description": "Evelyn hurls her spear at the chosen area, dealing <color=green>700%</color> Max Atk physical damage and appluing Stun effect on enemies get hit for 1 seconds.<color=red> Cooldown 20 seconds.</color>",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill1",
+        "name": "Evelyn Passive 1",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_2",
+        "description": "Normal attack has 10% chance to inflicts bonus fixed damage equals to 5% enemy HP ( This damage can't exceed 300% self Attack and cannot crit)",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Falcon Knight Evelynn",
+      "description": "generalHeroInfo des",
+      "className": "Falcon Knight",
+      "type": "Warrior",
+      "tier": "Rare",
+      "level": 0,
+      "star": 0,
+      "avatar": "falcon_knight_evelyn"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 5,
+        "critDamage": 200,
+        "physicDamage": 15,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 150,
+      "maxEnergy": 200,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 23,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "ValkyrieEvelyn_Skill0",
+        "name": "Wild Spear",
+        "skillType": "Active",
+        "avatar": "evelyn_skill_1",
+        "description": "Evelyn hurls her spear at the chosen area, dealing <color=green>500%</color> Max Atk physical damage and appluing Stun effect on enemies get hit for 2 seconds.<color=red> Cooldown 20 seconds.</color>",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill2",
+        "name": "Evelyn Passive 2",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_3",
+        "description": "Everytime Evelyn last hit an enemy, she gets a 30% crit damage buff for 5 seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Valkyrie Evelyn",
+      "description": "generalHeroInfo des",
+      "className": "Pegasus Knight",
+      "type": "Warrior",
+      "tier": "Epic",
+      "level": 0,
+      "star": 0,
+      "avatar": "valkyrie_evelyn"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 5,
+        "critDamage": 200,
+        "physicDamage": 15,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 150,
+      "maxEnergy": 200,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 24,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "DynastyEvelyn_Skill0",
+        "name": "Wild Spear",
+        "skillType": "Active",
+        "avatar": "evelyn_skill_1",
+        "description": "Evelyn hurls her spear at the chosen area, dealing <color=green>500%</color> Max Atk physical damage and appluing Stun effect on enemies get hit for 2 seconds.<color=red> Cooldown 20 seconds.</color>",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill1",
+        "name": "Evelyn Passive 1",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_2",
+        "description": "Normal attack has 10% chance to inflicts bonus fixed damage equals to 5% enemy HP ( This damage can't exceed 300% self Attack and cannot crit)",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill2",
+        "name": "Evelyn Passive 2",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_3",
+        "description": "Everytime Evelyn last hit an enemy, she gets a 30% crit damage buff for 5 seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Dynasty Evelyn",
+      "description": "generalHeroInfo des",
+      "className": "Dynasty",
+      "type": "Warrior",
+      "tier": "Unique",
+      "level": 0,
+      "star": 0,
+      "avatar": "dynasty_evelyn"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 5,
+        "critDamage": 200,
+        "physicDamage": 15,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 150,
+      "maxEnergy": 200,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 25,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "OrderOfLightEvelyn_Skill0",
+        "name": "Wild Spear",
+        "skillType": "Active",
+        "avatar": "evelyn_skill_1",
+        "description": "Evelyn hurls her spear at the chosen area, dealing <color=green>500%</color> Max Atk physical damage and appluing Stun effect on enemies get hit for 2 seconds.<color=red> Cooldown 20 seconds.</color>",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill1",
+        "name": "Evelyn Passive 1",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_2",
+        "description": "Normal attack has 10% chance to inflicts bonus fixed damage equals to 5% enemy HP ( This damage can't exceed 300% self Attack and cannot crit)",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill2",
+        "name": "Evelyn Passive 2",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_3",
+        "description": "Everytime Evelyn last hit an enemy, she gets a 30% crit damage buff for 5 seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Order Of Light Evelyn",
+      "description": "generalHeroInfo des",
+      "className": "OrderOfLight",
+      "type": "Warrior",
+      "tier": "Unique",
+      "level": 0,
+      "star": 0,
+      "avatar": "order_of_light_evelyn"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 5,
+        "critDamage": 200,
+        "physicDamage": 15,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 150,
+      "maxEnergy": 200,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 26,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "CrimsonKnightEvelyn_Skill0",
+        "name": "Wild Spear",
+        "skillType": "Active",
+        "avatar": "evelyn_skill_1",
+        "description": "Evelyn hurls her spear at the chosen area, dealing <color=green>500%</color> Max Atk physical damage and appluing Stun effect on enemies get hit for 2 seconds.<color=red> Cooldown 20 seconds.</color>",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill1",
+        "name": "Evelyn Passive 1",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_2",
+        "description": "Normal attack has 10% chance to inflicts bonus fixed damage equals to 5% enemy HP ( This damage can't exceed 300% self Attack and cannot crit)",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill2",
+        "name": "Evelyn Passive 2",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_3",
+        "description": "Everytime Evelyn last hit an enemy, she gets a 30% crit damage buff for 5 seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Crimson Knight Evelyn",
+      "description": "generalHeroInfo des",
+      "className": "Crimson Knight",
+      "type": "Warrior",
+      "tier": "Legendary",
+      "level": 0,
+      "star": 0,
+      "avatar": "crimson_knight_evelyn"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 5,
+        "critDamage": 200,
+        "physicDamage": 15,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 150,
+      "maxEnergy": 200,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 27,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "SoulStealerEvelyn_Skill0",
+        "name": "Wild Spear",
+        "skillType": "Active",
+        "avatar": "evelyn_skill_1",
+        "description": "Evelyn hurls her spear at the chosen area, dealing <color=green>500%</color> Max Atk physical damage and appluing Stun effect on enemies get hit for 2 seconds.<color=red> Cooldown 20 seconds.</color>",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill1",
+        "name": "Evelyn Passive 1",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_2",
+        "description": "Normal attack has 10% chance to inflicts bonus fixed damage equals to 5% enemy HP ( This damage can't exceed 300% self Attack and cannot crit)",
+        "level": 1
+      },
+      {
+        "skillName": "Evelyn_Skill2",
+        "name": "Evelyn Passive 2",
+        "skillType": "Passive",
+        "avatar": "evelyn_skill_3",
+        "description": "Everytime Evelyn last hit an enemy, she gets a 30% crit damage buff for 5 seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Soul Stealer Evelyn",
+      "description": "generalHeroInfo des",
+      "className": "Soul Stealer",
+      "type": "Warrior",
+      "tier": "Legendary",
+      "level": 0,
+      "star": 0,
+      "avatar": "soul_stealer_evelyn"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 5,
+        "critDamage": 200,
+        "physicDamage": 15,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 150,
+      "maxEnergy": 200,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 3,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "Florence_Skill0",
+        "name": "Holy Protection",
+        "skillType": "Active",
+        "avatar": "florence_skill_1",
+        "description": "Florence creates a protective shield for the Castle that protects it from all damage for 3 seconds and reflects <color=green>20%</color> of those damage towards the attacker.<color=red> Cooldown 25 seconds.</color> ",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Florence",
+      "description": "generalHeroInfo des",
+      "className": "Priest",
+      "type": "Support",
+      "tier": "Common",
+      "level": 0,
+      "star": 0,
+      "avatar": "florence"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 15,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 250,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 33,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "HighPriestFlorence_Skill0",
+        "name": "Holy Protection",
+        "skillType": "Active",
+        "avatar": "florence_skill_1",
+        "description": "Florence creates a protective shield for the Castle that protects it from all damage for 3 seconds and reflects <color=green>20%</color> of those damage towards the attacker.<color=red> Cooldown 25 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill1",
+        "name": "Florence Passive 1",
+        "skillType": "Passive",
+        "avatar": "florence_skill_2",
+        "description": "Every 9 seconds, buff all allies 5 Atk Spd and 5% crit damage for 5 seconds",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "High Priest Florence",
+      "description": "generalHeroInfo des",
+      "className": "High Priest",
+      "type": "Support",
+      "tier": "Rare",
+      "level": 0,
+      "star": 0,
+      "avatar": "high_priest_florence"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 15,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 250,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 34,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "ArchbishopFlorence_Skill0",
+        "name": "Holy Protection",
+        "skillType": "Active",
+        "avatar": "florence_skill_1",
+        "description": "Florence creates a protective shield for the Castle that protects it from all damage for 3 seconds and reflects <color=green>20%</color> of those damage towards the attacker.<color=red> Cooldown 25 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill2",
+        "name": "Florence Passive 2",
+        "skillType": "Passive",
+        "avatar": "florence_skill_3",
+        "description": "Enemy gets hit by Florence normal attack is marked for 3 seconds. Marked enemy receives 10% more damage",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Archbishop Florence",
+      "description": "generalHeroInfo des",
+      "className": "Archbishop",
+      "type": "Support",
+      "tier": "Epic",
+      "level": 0,
+      "star": 0,
+      "avatar": "archbishop_florence"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 15,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 250,
+      "energyRegeneration": 10
+    }
+  },
+  {
+ 
+    "idHero": 35,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "DynastyFlorence_Skill0",
+        "name": "Holy Protection",
+        "skillType": "Active",
+        "avatar": "florence_skill_1",
+        "description": "Florence creates a protective shield for the Castle that protects it from all damage for 3 seconds and reflects <color=green>20%</color> of those damage towards the attacker.<color=red> Cooldown 25 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill1",
+        "name": "Florence Passive 1",
+        "skillType": "Passive",
+        "avatar": "florence_skill_2",
+        "description": "Every 9 seconds, buff all allies 5 Atk Spd and 5% crit damage for 5 seconds",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill2",
+        "name": "Florence Passive 2",
+        "skillType": "Passive",
+        "avatar": "florence_skill_3",
+        "description": "Enemy gets hit by Florence normal attack is marked for 3 seconds. Marked enemy receives 10% more damage",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Dynasty Florence",
+      "description": "generalHeroInfo des",
+      "className": "Dynasty",
+      "type": "Support",
+      "tier": "Unique",
+      "level": 0,
+      "star": 0,
+      "avatar": "dynasty_florence"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 15,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 250,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 36,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "OrderOfLightFlorence_Skill0",
+        "name": "Holy Protection",
+        "skillType": "Active",
+        "avatar": "florence_skill_1",
+        "description": "Florence creates a protective shield for the Castle that protects it from all damage for 3 seconds and reflects <color=green>20%</color> of those damage towards the attacker.<color=red> Cooldown 25 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill1",
+        "name": "Florence Passive 1",
+        "skillType": "Passive",
+        "avatar": "florence_skill_2",
+        "description": "Every 9 seconds, buff all allies 5 Atk Spd and 5% crit damage for 5 seconds",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill2",
+        "name": "Florence Passive 2",
+        "skillType": "Passive",
+        "avatar": "florence_skill_3",
+        "description": "Enemy gets hit by Florence normal attack is marked for 3 seconds. Marked enemy receives 10% more damage",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Order Of Light Florence",
+      "description": "generalHeroInfo des",
+      "className": "Order Of Light",
+      "type": "Support",
+      "tier": "Unique",
+      "level": 0,
+      "star": 0,
+      "avatar": "order_of_light_florence"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 15,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 250,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 38,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "CrimsonKnightFlorence_Skill0",
+        "name": "Holy Protection",
+        "skillType": "Active",
+        "avatar": "florence_skill_1",
+        "description": "Florence creates a protective shield for the Castle that protects it from all damage for 3 seconds and reflects <color=green>20%</color> of those damage towards the attacker.<color=red> Cooldown 25 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill1",
+        "name": "Florence Passive 1",
+        "skillType": "Passive",
+        "avatar": "florence_skill_2",
+        "description": "Every 9 seconds, buff all allies 5 Atk Spd and 5% crit damage for 5 seconds",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill2",
+        "name": "Florence Passive 2",
+        "skillType": "Passive",
+        "avatar": "florence_skill_3",
+        "description": "Enemy gets hit by Florence normal attack is marked for 3 seconds. Marked enemy receives 10% more damage",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Crimson Knight Florence",
+      "description": "generalHeroInfo des",
+      "className": "Crimson Knight",
+      "type": "Support",
+      "tier": "Legendary",
+      "level": 0,
+      "star": 0,
+      "avatar": "crimson_knight_florence"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 15,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 250,
+      "energyRegeneration": 10
+    }
+  },
+  {
+  
+    "idHero": 39,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "SoulStealerFlorence_Skill0",
+        "name": "Holy Protection",
+        "skillType": "Active",
+        "avatar": "florence_skill_1",
+        "description": "Florence creates a protective shield for the Castle that protects it from all damage for 3 seconds and reflects <color=green>20%</color> of those damage towards the attacker.<color=red> Cooldown 25 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill1",
+        "name": "Florence Passive 1",
+        "skillType": "Passive",
+        "avatar": "florence_skill_2",
+        "description": "Every 9 seconds, buff all allies 5 Atk Spd and 5% crit damage for 5 seconds",
+        "level": 1
+      },
+      {
+        "skillName": "Florence_Skill2",
+        "name": "Florence Passive 2",
+        "skillType": "Passive",
+        "avatar": "florence_skill_3",
+        "description": "Enemy gets hit by Florence normal attack is marked for 3 seconds. Marked enemy receives 10% more damage",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Soul Stealer Florence",
+      "description": "generalHeroInfo des",
+      "className": "Soul Stealer",
+      "type": "Support",
+      "tier": "Legendary",
+      "level": 0,
+      "star": 0,
+      "avatar": "soul_stealer_florence"
+    },
+    "fightInfo": {
+      "attackSpeed": 40,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 0,
+        "magicDamage": 15,
+        "pureDamage": 0
+      },
+      "typeBullet": "BulletInfo"
+    },
+    "entityInfo": {
+      "armor": 5,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 250,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 4,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "Galidus_Skill0",
+        "name": "Primal Roar",
+        "skillType": "Active",
+        "avatar": "galidus_skill_1",
+        "description": "Galidus roars loudly, dealing [<color=green>50%</color> Max Attack] physical damage every <color=green>0.5</color> seconds for <color=green>3</color> seconds and inflicts Fear effect on enemies near the castle. <color=red>Cooldown50 seconds.</color> ",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Galidus",
+      "description": "generalHeroInfo des",
+      "className": "Fighter",
+      "type": "Warrior",
+      "tier": "Common",
+      "level": 0,
+      "star": 0,
+      "avatar": "Galidus"
+    },
+    "fightInfo": {
+      "attackSpeed": 30,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 15,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 120,
+      "maxEnergy": 500,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 5,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "Rathael_Skill0",
+        "name": "Strafe shot",
+        "skillType": "Active",
+        "avatar": "rathael_skill_1",
+        "description": "For <color=green>3</color> seconds, normal attacks fire <color=green>5</color>arrow in a cone. CD <color=green>15</color>seconds. <color=green>100%</color> chance to poison enemy.",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Rathael",
+      "description": "Rathael des",
+      "className": "Archer",
+      "type": "Ranger",
+      "tier": "Common",
+      "level": 0,
+      "star": 0,
+      "avatar": "rathael"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 10,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 150,
+      "energyRegeneration": 10
+    }
+  },
+  {
+ 
+    "idHero": 42,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "WarriorGalidus_Skill0",
+        "name": "Primal Roar",
+        "skillType": "Active",
+        "avatar": "galidus_skill_1",
+        "description": "Galidus roars loudly, dealing [<color=green>75%</color> Max Attack] physical damage every <color=green>0.5</color> seconds for <color=green>3</color> seconds and inflicts Fear effect on enemies near the castle. <color=red>Cooldown50 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill1",
+        "name": "Galidus Passive 1",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_2",
+        "description": "Normal attack has 5% chance to stun enemy for 1 second.",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Warrior Galidus",
+      "description": "generalHeroInfo des",
+      "className": "Warrior",
+      "type": "Warrior",
+      "tier": "Rare",
+      "level": 0,
+      "star": 0,
+      "avatar": "Warrior_Galidus"
+    },
+    "fightInfo": {
+      "attackSpeed": 30,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 15,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 120,
+      "maxEnergy": 500,
+      "energyRegeneration": 10
+    }
+  },
+  {
+ 
+    "idHero": 43,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "BerserkerGalidus_Skill0",
+        "name": "Primal Roar",
+        "skillType": "Active",
+        "avatar": "galidus_skill_1",
+        "description": "Galidus roars loudly, dealing [<color=green>50%</color> Max Attack] physical damage every <color=green>0.5</color> seconds for <color=green>4</color> seconds and inflicts Fear effect on enemies near the castle. <color=red>Cooldown50 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill2",
+        "name": "Galidus Passive 2",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_3",
+        "description": "Every normal attack gives Galius 5 Atk Spd for 5 seconds. This buff can stack 5 times.",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Berserker Galidus",
+      "description": "generalHeroInfo des",
+      "className": "Berserker",
+      "type": "Warrior",
+      "tier": "Epic",
+      "level": 0,
+      "star": 0,
+      "avatar": "Berserker_Galidus"
+    },
+    "fightInfo": {
+      "attackSpeed": 30,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 15,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 120,
+      "maxEnergy": 500,
+      "energyRegeneration": 10
+    }
+  },
+  {
+
+    "idHero": 44,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "DynastyGalidus_Skill0",
+        "name": "Primal Roar",
+        "skillType": "Active",
+        "avatar": "galidus_skill_1",
+        "description": "Galidus roars loudly, dealing [<color=green>50%</color> Max Attack] physical damage every <color=green>0.5</color> seconds for <color=green>4</color> seconds and inflicts Fear effect on enemies near the castle. <color=red>Cooldown50 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill1",
+        "name": "Galidus Passive 1",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_2",
+        "description": "Normal attack has 5% chance to stun enemy for 1 second.",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill2",
+        "name": "Galidus Passive 2",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_3",
+        "description": "Every normal attack gives Galius 5 Atk Spd for 5 seconds. This buff can stack 5 times.",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Dynasty Galidus",
+      "description": "generalHeroInfo des",
+      "className": "Dynasty",
+      "type": "Warrior",
+      "tier": "Unique",
+      "level": 0,
+      "star": 0,
+      "avatar": "Dynasty_Galidus"
+    },
+    "fightInfo": {
+      "attackSpeed": 30,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 15,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 120,
+      "maxEnergy": 500,
+      "energyRegeneration": 10
+    }
+  },
+  {
+   
+    "idHero": 45,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "OrderOfLightGalidus_Skill0",
+        "name": "Primal Roar",
+        "skillType": "Active",
+        "avatar": "galidus_skill_1",
+        "description": "Galidus roars loudly, dealing [<color=green>50%</color> Max Attack] physical damage every <color=green>0.5</color> seconds for <color=green>4</color> seconds and inflicts Fear effect on enemies near the castle. <color=red>Cooldown50 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill1",
+        "name": "Galidus Passive 1",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_2",
+        "description": "Normal attack has 5% chance to stun enemy for 1 second.",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill2",
+        "name": "Galidus Passive 2",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_3",
+        "description": "Every normal attack gives Galius 5 Atk Spd for 5 seconds. This buff can stack 5 times.",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Order Of Light Galidus",
+      "description": "generalHeroInfo des",
+      "className": "Order Of Light",
+      "type": "Warrior",
+      "tier": "Unique",
+      "level": 0,
+      "star": 0,
+      "avatar": "Order_Of_Light_Galidus"
+    },
+    "fightInfo": {
+      "attackSpeed": 30,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 15,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 120,
+      "maxEnergy": 500,
+      "energyRegeneration": 10
+    }
+  },
+  {
+  
+    "idHero": 46,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "CrimsonKnightGalidus_Skill0",
+        "name": "Primal Roar",
+        "skillType": "Active",
+        "avatar": "galidus_skill_1",
+        "description": "Galidus roars loudly, dealing [<color=green>50%</color> Max Attack] physical damage every <color=green>0.5</color> seconds for <color=green>4</color> seconds and inflicts Fear effect on enemies near the castle. <color=red>Cooldown50 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill1",
+        "name": "Galidus Passive 1",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_2",
+        "description": "Normal attack has 5% chance to stun enemy for 1 second.",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill2",
+        "name": "Galidus Passive 2",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_3",
+        "description": "Every normal attack gives Galius 5 Atk Spd for 5 seconds. This buff can stack 5 times.",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Crimson Knight Galidus",
+      "description": "generalHeroInfo des",
+      "className": "Crimson Knight",
+      "type": "Warrior",
+      "tier": "Legendary",
+      "level": 0,
+      "star": 0,
+      "avatar": "crimson_knight_galidus"
+    },
+    "fightInfo": {
+      "attackSpeed": 30,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 15,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 120,
+      "maxEnergy": 500,
+      "energyRegeneration": 10
+    }
+  },
+  {
+   
+    "idHero": 47,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "SoulStealerGalidus_Skill0",
+        "name": "Primal Roar",
+        "skillType": "Active",
+        "avatar": "galidus_skill_1",
+        "description": "Galidus roars loudly, dealing [<color=green>50%</color> Max Attack] physical damage every <color=green>0.5</color> seconds for <color=green>4</color> seconds and inflicts Fear effect on enemies near the castle. <color=red>Cooldown50 seconds.</color> ",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill1",
+        "name": "Galidus Passive 1",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_2",
+        "description": "Normal attack has 5% chance to stun enemy for 1 second.",
+        "level": 1
+      },
+      {
+        "skillName": "Galidus_Skill2",
+        "name": "Galidus Passive 2",
+        "skillType": "Passive",
+        "avatar": "galidus_skill_3",
+        "description": "Every normal attack gives Galius 5 Atk Spd for 5 seconds. This buff can stack 5 times.",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Soul Stealer Galidus",
+      "description": "generalHeroInfo des",
+      "className": "Soul Stealer",
+      "type": "Warrior",
+      "tier": "Legendary",
+      "level": 0,
+      "star": 0,
+      "avatar": "Soul_Stealer_Galidus"
+    },
+    "fightInfo": {
+      "attackSpeed": 30,
+      "minAttackRange": 0,
+      "maxAttackRange": 8,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 15,
+      "magicResistance": 5,
+      "lifeSteal": 0,
+      "HP": 120,
+      "maxEnergy": 500,
+      "energyRegeneration": 10
+    }
+  },
+  {
+   
+    "idHero": 52,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "SniperRathael_Skill0",
+        "name": "Strafe shot",
+        "skillType": "Active",
+        "avatar": "rathael_skill_1",
+        "description": "For <color=green>4</color> seconds, normal attacks fire <color=green>5</color>arrow in a cone. CD <color=green>15</color>seconds. <color=green>100%</color> chance to poison enemy.",
+        "level": 1
+      },
+      {
+        "skillName": "Rathael_Skill1",
+        "name": "Rathael Passive 1",
+        "skillType": "Passive",
+        "avatar": "rathael_skill_2",
+        "description": "Rathael normal attack has 10% chance to inflict enemy with Poison for 3 seconds. Poison deals 100% attack damage every second.",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Sniper Rathael",
+      "description": "Rathael des",
+      "className": "Archer",
+      "type": "Ranger",
+      "tier": "Rare",
+      "level": 0,
+      "star": 0,
+      "avatar": "sniper_rathael"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 10,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 150,
+      "energyRegeneration": 10
+    }
+  },
+  {
+   
+    "idHero": 53,
+    "equipments": [],
+    "skills": [
+      {
+        "skillName": "ElfKingRathael_Skill0",
+        "name": "Strafe shot",
+        "skillType": "Active",
+        "avatar": "rathael_skill_1",
+        "description": "For <color=green>4</color> seconds, normal attacks fire <color=green>5</color>arrow in a cone. CD <color=green>15</color>seconds. <color=green>100%</color> chance to poison enemy.",
+        "level": 1
+      },
+      {
+        "skillName": "Rathael_Skill2",
+        "name": "Rathael Passive 2",
+        "skillType": "Passive",
+        "avatar": "rathael_skill_3",
+        "description": "Normal attack has 3% chance to fire an Enhanced Arrow that can instant kill enemy unit. For Bosses, the silver arrow deals 5% of max HP as fixed damage. (can't exceed 300% self atk, can't crit)",
+        "level": 1
+      }
+    ],
+    "generalHeroInfo": {
+      "name": "Elf King Rathael",
+      "description": "Rathael des",
+      "className": "Archer",
+      "type": "Ranger",
+      "tier": "Epic",
+      "level": 0,
+      "star": 0,
+      "avatar": "elf_king_rathael"
+    },
+    "fightInfo": {
+      "attackSpeed": 60,
+      "minAttackRange": 0,
+      "maxAttackRange": 10,
+      "damage": {
+        "critRate": 0,
+        "critDamage": 200,
+        "physicDamage": 20,
+        "magicDamage": 0,
+        "pureDamage": 0
+      },
+      "typeBullet": "ArcBulletInfo"
+    },
+    "entityInfo": {
+      "armor": 10,
+      "magicResistance": 15,
+      "lifeSteal": 0,
+      "HP": 100,
+      "maxEnergy": 150,
+      "energyRegeneration": 10
+    }
+  }
+]
