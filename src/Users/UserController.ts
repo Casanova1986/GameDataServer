@@ -285,7 +285,6 @@ export class UserController {
                 // }
 
                 callback('', {
-                  data: {
                     id: userData._id,
                     name: userData.userName,
                     avatar: userData.avatar,
@@ -296,7 +295,6 @@ export class UserController {
                     energy: userData.energy,
                     maxEnergy: userData.maxEnergy,
                     currentStage: userData.currentStage
-                  },
                 });
               }
             });

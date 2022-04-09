@@ -244,18 +244,16 @@ class UserController {
                                 //   await this.createDefaultCastle(null, userData.walletID);
                                 // }
                                 callback('', {
-                                    data: {
-                                        id: userData._id,
-                                        name: userData.userName,
-                                        avatar: userData.avatar,
-                                        walletID: userData.walletID,
-                                        RDG: userData.RDG,
-                                        RDR: userData.RDR,
-                                        inventory: inventory,
-                                        energy: userData.energy,
-                                        maxEnergy: userData.maxEnergy,
-                                        currentStage: userData.currentStage
-                                    },
+                                    id: userData._id,
+                                    name: userData.userName,
+                                    avatar: userData.avatar,
+                                    walletID: userData.walletID,
+                                    RDG: userData.RDG,
+                                    RDR: userData.RDR,
+                                    inventory: inventory,
+                                    energy: userData.energy,
+                                    maxEnergy: userData.maxEnergy,
+                                    currentStage: userData.currentStage
                                 });
                             }
                         });
