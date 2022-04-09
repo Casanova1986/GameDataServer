@@ -10,7 +10,7 @@ if (cluster.isMaster) {
 
 function spawnChildServer() {
   console.log('SpawnChildServer');
-  for (let i = 0; i < numCPUs; i++) {
+  for (let i = 0; i < 1; i++) {
     console.log('SpawnChild ' + i);
     cluster.fork();
   }

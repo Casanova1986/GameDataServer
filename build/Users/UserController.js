@@ -45,9 +45,9 @@ class UserController {
                     callback('', 'Create User Faild');
                 }
                 else {
-                    this.createDefaultHeroes(res._id, walletID);
-                    this.createDefaultItems(res._id, walletID);
-                    this.createDefaultCastle(res._id, walletID);
+                    // this.createDefaultHeroes(res._id, walletID);
+                    // this.createDefaultItems(res._id, walletID);
+                    // this.createDefaultCastle(res._id, walletID);
                     callback('', 'Create User Succeeded!');
                 }
             });
@@ -223,26 +223,26 @@ class UserController {
                                 let heroCount = 0;
                                 let castleCount = 0;
                                 let itemCount = 0;
-                                await userInventory.forEach((value, key) => {
-                                    if (value.itemType == UserInventory_1.ItemType.Hero) {
-                                        heroCount++;
-                                    }
-                                    if (value.itemType == UserInventory_1.ItemType.Castle) {
-                                        castleCount++;
-                                    }
-                                    if (value.itemType == UserInventory_1.ItemType.Equip) {
-                                        itemCount++;
-                                    }
-                                });
-                                if (heroCount == 0) {
-                                    await this.createDefaultHeroes(null, userData.walletID);
-                                }
-                                if (itemCount == 0) {
-                                    await this.createDefaultItems(null, userData.walletID);
-                                }
-                                if (castleCount == 0) {
-                                    await this.createDefaultCastle(null, userData.walletID);
-                                }
+                                // await userInventory.forEach((value, key) => {
+                                //   if (value.itemType == ItemType.Hero) {
+                                //     heroCount++;
+                                //   }
+                                //   if (value.itemType == ItemType.Castle) {
+                                //     castleCount++;
+                                //   }
+                                //   if (value.itemType == ItemType.Equip) {
+                                //     itemCount++;
+                                //   }
+                                // });
+                                // if (heroCount == 0) {
+                                //   await this.createDefaultHeroes(null, userData.walletID);
+                                // }
+                                // if (itemCount == 0) {
+                                //   await this.createDefaultItems(null, userData.walletID);
+                                // }
+                                // if (castleCount == 0) {
+                                //   await this.createDefaultCastle(null, userData.walletID);
+                                // }
                                 callback('', {
                                     data: {
                                         id: userData._id,

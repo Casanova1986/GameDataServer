@@ -59,9 +59,9 @@ export class UserController {
             callback('', 'Create User Faild');
           } else {
 
-            this.createDefaultHeroes(res._id, walletID);
-            this.createDefaultItems(res._id, walletID);
-            this.createDefaultCastle(res._id, walletID);
+            // this.createDefaultHeroes(res._id, walletID);
+            // this.createDefaultItems(res._id, walletID);
+            // this.createDefaultCastle(res._id, walletID);
             callback('', 'Create User Succeeded!');
 
           }
@@ -260,29 +260,29 @@ export class UserController {
                 let castleCount = 0;
                 let itemCount = 0;
 
-                await userInventory.forEach((value, key) => {
-                  if (value.itemType == ItemType.Hero) {
-                    heroCount++;
-                  }
-                  if (value.itemType == ItemType.Castle) {
-                    castleCount++;
-                  }
-                  if (value.itemType == ItemType.Equip) {
-                    itemCount++;
-                  }
-                });
+                // await userInventory.forEach((value, key) => {
+                //   if (value.itemType == ItemType.Hero) {
+                //     heroCount++;
+                //   }
+                //   if (value.itemType == ItemType.Castle) {
+                //     castleCount++;
+                //   }
+                //   if (value.itemType == ItemType.Equip) {
+                //     itemCount++;
+                //   }
+                // });
 
-                if (heroCount == 0) {
-                  await this.createDefaultHeroes(null, userData.walletID);
-                }
+                // if (heroCount == 0) {
+                //   await this.createDefaultHeroes(null, userData.walletID);
+                // }
 
-                if (itemCount == 0) {
-                  await this.createDefaultItems(null, userData.walletID);
-                }
+                // if (itemCount == 0) {
+                //   await this.createDefaultItems(null, userData.walletID);
+                // }
 
-                if (castleCount == 0) {
-                  await this.createDefaultCastle(null, userData.walletID);
-                }
+                // if (castleCount == 0) {
+                //   await this.createDefaultCastle(null, userData.walletID);
+                // }
 
                 callback('', {
                   data: {
