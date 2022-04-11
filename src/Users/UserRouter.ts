@@ -62,7 +62,7 @@ UserRouter.post('/login', async (req, res) => {
     userController.loginUser(req.body.userName, req.body.passWord, (err, results) => {
       if (err) {
         res.send({
-          Status: 1,
+          Status: -1,
           Body: {
             data: err,
           },
