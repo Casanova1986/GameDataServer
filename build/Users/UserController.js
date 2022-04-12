@@ -15,6 +15,7 @@ const HeroController_1 = require("../GameData/Hero/HeroController");
 const EquipmentController_1 = require("../GameData/Equipment/EquipmentController");
 const CastleController_1 = require("../GameData/Castle/CastleController");
 const RedisUltils_1 = require("../Utils/RedisUltils");
+const Param_1 = require("../Utils/Param");
 const crypto = require('crypto');
 const bcrypt = require('bcrypt');
 var heroController = new HeroController_1.HeroController();
@@ -196,20 +197,20 @@ class UserController {
                 console.log(err);
             else {
                 if (!data) {
-                    callback('', 'Wrong username or password');
+                    callback(Param_1.ErrorCode.INVALID_INPUT, 'Wrong username or password');
                 }
                 else {
                     let userData = JSON.parse(JSON.stringify(data));
                     let passBcrypt = userData.passWord;
                     validatePassWord = bcrypt.compareSync(passWord, passBcrypt);
                     if (!validatePassWord) {
-                        callback('', 'Wrong username or password');
+                        callback('Wrong username or password');
                     }
                     else {
                         let isOnline = await RedisUltils_1.redisUtil.CheckCurrentDeviceOnline(userData._id, userName, 'deviceID');
                         //user đã online ở thiết bị khác rồi
                         if (isOnline) {
-                            callback('', 'Duplicate login');
+                            callback(Param_1.ErrorCode.DUPLICATE, 'Duplicate login');
                         }
                         else {
                             //cache user lại để sau này lấy data xử lý cho nhanh

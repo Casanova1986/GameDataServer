@@ -16,6 +16,7 @@ import { callbackify } from 'util';
 import { CastleController } from '../GameData/Castle/CastleController';
 import { redisUtil } from '../Utils/RedisUltils';
 import { UserData } from './UserData';
+import { ErrorCode } from '../Utils/Param';
 
 
 const crypto = require('crypto');
@@ -227,7 +228,7 @@ export class UserController {
       else {
 
         if (!data) {
-          callback('', 'Wrong username or password');
+          callback(ErrorCode.INVALID_INPUT, 'Wrong username or password');
         } else {
 
           let userData = JSON.parse(JSON.stringify(data));
@@ -235,7 +236,7 @@ export class UserController {
           let passBcrypt = userData.passWord;
           validatePassWord = bcrypt.compareSync(passWord, passBcrypt);
           if (!validatePassWord) {
-            callback('', 'Wrong username or password');
+            callback(, 'Wrong username or password');
           } else {
 
 
@@ -243,7 +244,7 @@ export class UserController {
 
             //user đã online ở thiết bị khác rồi
             if (isOnline) {
-              callback('', 'Duplicate login');
+              callback(ErrorCode.DUPLICATE, 'Duplicate login');
             }
             else {
               //cache user lại để sau này lấy data xử lý cho nhanh
