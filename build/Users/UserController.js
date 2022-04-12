@@ -197,14 +197,14 @@ class UserController {
                 console.log(err);
             else {
                 if (!data) {
-                    callback(Param_1.ErrorCode.INVALID_INPUT, 'Wrong username or password');
+                    callback(Param_1.ErrorCode.USER_NOT_FOUND, 'Wrong username or password');
                 }
                 else {
                     let userData = JSON.parse(JSON.stringify(data));
                     let passBcrypt = userData.passWord;
                     validatePassWord = bcrypt.compareSync(passWord, passBcrypt);
                     if (!validatePassWord) {
-                        callback('Wrong username or password');
+                        callback(Param_1.ErrorCode.INVALID_INPUT, 'Wrong username or password');
                     }
                     else {
                         let isOnline = await RedisUltils_1.redisUtil.CheckCurrentDeviceOnline(userData._id, userName, 'deviceID');

@@ -228,7 +228,7 @@ export class UserController {
       else {
 
         if (!data) {
-          callback(ErrorCode.INVALID_INPUT, 'Wrong username or password');
+          callback(ErrorCode.USER_NOT_FOUND, 'Wrong username or password');
         } else {
 
           let userData = JSON.parse(JSON.stringify(data));
@@ -236,7 +236,7 @@ export class UserController {
           let passBcrypt = userData.passWord;
           validatePassWord = bcrypt.compareSync(passWord, passBcrypt);
           if (!validatePassWord) {
-            callback(, 'Wrong username or password');
+            callback(ErrorCode.INVALID_INPUT, 'Wrong username or password');
           } else {
 
 
