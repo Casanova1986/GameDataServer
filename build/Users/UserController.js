@@ -244,6 +244,16 @@ class UserController {
                                 // if (castleCount == 0) {
                                 //   await this.createDefaultCastle(null, userData.walletID);
                                 // }
+                                let characterList = {
+                                    Face: 'f_' + Math.floor(Math.random() * 10),
+                                    Eye: 'e_' + Math.floor(Math.random() * 10),
+                                    Hair: 'h_' + Math.floor(Math.random() * 10),
+                                    Mouth: 'm_' + Math.floor(Math.random() * 10),
+                                    Shirt: 'st_' + Math.floor(Math.random() * 10),
+                                    Shoes: 'sh_' + Math.floor(Math.random() * 10),
+                                    Trouser: 't_' + Math.floor(Math.random() * 10),
+                                    Dresscode: 'd_' + Math.floor(Math.random() * 10),
+                                };
                                 callback('', {
                                     id: userData._id,
                                     name: userData.userName,
@@ -254,7 +264,8 @@ class UserController {
                                     inventory: inventory,
                                     energy: userData.energy,
                                     maxEnergy: userData.maxEnergy,
-                                    currentStage: userData.currentStage
+                                    currentStage: userData.currentStage,
+                                    characterList: characterList
                                 });
                             }
                         });
