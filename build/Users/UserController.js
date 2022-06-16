@@ -244,16 +244,20 @@ class UserController {
                                 // if (castleCount == 0) {
                                 //   await this.createDefaultCastle(null, userData.walletID);
                                 // }
-                                let characterList = {
-                                    Face: 'f_' + Math.floor(Math.random() * 10),
-                                    Eye: 'e_' + Math.floor(Math.random() * 10),
-                                    Hair: 'h_' + Math.floor(Math.random() * 10),
-                                    Mouth: 'm_' + Math.floor(Math.random() * 10),
-                                    Shirt: 'st_' + Math.floor(Math.random() * 10),
-                                    Shoes: 'sh_' + Math.floor(Math.random() * 10),
-                                    Trouser: 't_' + Math.floor(Math.random() * 10),
-                                    Dresscode: 'd_' + Math.floor(Math.random() * 10),
-                                };
+                                let characterList = new Array();
+                                for (let i = 0; i < 10; i++) {
+                                    let character = {
+                                        Face: 'f_' + Math.floor(Math.random() * 10),
+                                        Eye: 'e_' + Math.floor(Math.random() * 10),
+                                        Hair: 'h_' + Math.floor(Math.random() * 10),
+                                        Mouth: 'm_' + Math.floor(Math.random() * 10),
+                                        Shirt: 'st_' + Math.floor(Math.random() * 10),
+                                        Shoes: 'sh_' + Math.floor(Math.random() * 10),
+                                        Trouser: 't_' + Math.floor(Math.random() * 10),
+                                        Dresscode: 'd_' + Math.floor(Math.random() * 10),
+                                    };
+                                    characterList.push(character);
+                                }
                                 callback('', {
                                     id: userData._id,
                                     name: userData.userName,
