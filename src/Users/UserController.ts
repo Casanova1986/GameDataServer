@@ -1,4 +1,5 @@
 import { UserModel } from './Models/UserModel';
+import { SurveyModel } from './Models/SurveyModel';
 import { EquipmentModel } from '../GameData/Equipment/EquipmentModel';
 import { ItemType } from './Models/UserInventory';
 import { UserInventoryModel, IUserInventory } from './Models/UserInventory';
@@ -522,6 +523,66 @@ export class UserController {
 
   }
 
+  async CreateSurvey(userId:string,surveyData:any,callback:any)
+  {
+    let survey = new SurveyModel();
+
+    let code = this.RandomCode();
+    await SurveyModel.create({
+      title:surveyData.title,
+      creatorID:userId,
+      code:code,
+      content:surveyData.content
+    }).then(res=>{
+      console.log(res);
+      callback({
+        status:1,
+        result:'ok'
+      })
+    }).catch(err=>{
+      console.log(err);
+      callback({
+        status:0,
+        result:'error',
+        message:err.tostring()
+      })
+    })
+    
+  } 
+
+  async GetSurveyData(surveyCode:string,callback:any)
+  {
+
+
+    SurveyModel.findOne({
+     code:surveyCode
+    }).then(res=>{
+      console.log(res);
+      callback({
+        status:1,
+        result:'ok',
+        data:res
+      })
+    }).catch(err=>{
+      console.log(err);
+      callback({
+        status:0,
+        result:'error',
+        message:err.tostring()
+      })
+    })
+    
+  } 
+
+
+  private RandomCode(): string {
+    var length = 8;
+    var text = "";
+    var possible = "abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+    for (var i = 0; i < length; i++)
+        text += possible.charAt(Math.floor(Math.random() * possible.length));
+    return text;
+}
 
   // async validateCampaign(userId: string, matchData:Array<CampaignData>)
   // {    

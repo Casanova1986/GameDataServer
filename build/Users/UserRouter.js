@@ -118,6 +118,17 @@ UserRouter.post('/RandomHero', async (req, res) => {
     //   res.send(rs);
     // });
 });
+UserRouter.post('/CreateSurvey', async (req, res) => {
+    console.log(req.body);
+    userController.CreateSurvey(req.body.userId, req.body.surveyData, (rs) => {
+        res.send(rs);
+    });
+});
+UserRouter.post('/GetSurveyByCode', async (req, res) => {
+    userController.GetSurveyData(req.body.code, (rs) => {
+        res.send(rs);
+    });
+});
 UserRouter.post('/GenerateHero', async (req, res) => {
     let walletId = req.body.walletId;
     let tokenId = req.body.tokenId;

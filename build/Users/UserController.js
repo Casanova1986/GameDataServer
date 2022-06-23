@@ -2,6 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.ProcessUser = exports.UserController = void 0;
 const UserModel_1 = require("./Models/UserModel");
+const SurveyModel_1 = require("./Models/SurveyModel");
 const EquipmentModel_1 = require("../GameData/Equipment/EquipmentModel");
 const UserInventory_1 = require("./Models/UserInventory");
 const UserInventory_2 = require("./Models/UserInventory");
@@ -462,6 +463,56 @@ class UserController {
                 //    newItem.walletID = userInfo?.walletID;
             }
         });
+    }
+    async CreateSurvey(userId, surveyData, callback) {
+        let survey = new SurveyModel_1.SurveyModel();
+        let code = this.RandomCode();
+        await SurveyModel_1.SurveyModel.create({
+            title: surveyData.title,
+            creatorID: userId,
+            code: code,
+            content: surveyData.content
+        }).then(res => {
+            console.log(res);
+            callback({
+                status: 1,
+                result: 'ok'
+            });
+        }).catch(err => {
+            console.log(err);
+            callback({
+                status: 0,
+                result: 'error',
+                message: err.tostring()
+            });
+        });
+    }
+    async GetSurveyData(surveyCode, callback) {
+        SurveyModel_1.SurveyModel.findOne({
+            code: surveyCode
+        }).then(res => {
+            console.log(res);
+            callback({
+                status: 1,
+                result: 'ok',
+                data: res
+            });
+        }).catch(err => {
+            console.log(err);
+            callback({
+                status: 0,
+                result: 'error',
+                message: err.tostring()
+            });
+        });
+    }
+    RandomCode() {
+        var length = 8;
+        var text = "";
+        var possible = "abcdefghiklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+        for (var i = 0; i < length; i++)
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+        return text;
     }
     // async validateCampaign(userId: string, matchData:Array<CampaignData>)
     // {    
